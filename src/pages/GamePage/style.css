@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+
+.container {
+  display: flex;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.left-column {
+  /* border: 1px solid red; */
+  background-color: #F3EFE9;
+  position: relative;
+  width: 80%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+
+.left-column--map {
+  width: 100%;
+  max-height: 100%;
+  flex-shrink: 1;
+}
+
+.right-column {
+  /* border: 1px solid blue; */
+
+  background-color: #FFF9EA;
+
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  height: 100vh;
+}
+
+.top-menu {
+  /* border: 1px solid orange; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 15%;
+  background-color: #F3EFE9;
+
+}
+
+.message-box {
+  /* border: 1px solid green; */
+  background-color: #C77B41;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25%;
+  border-radius: 0px 0px 30px 30px;
+
+}
+
+.message-box--text {
+  color: #FFF9EA;
+  text-align: center;
+  font-family: 'STIX Two Text', serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.monuments-box {
+  /* border: 1px solid rgb(230, 21, 56); */
+
+  background-color: #FFF9EA;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 60%;
+}
+
+.monuments-box--list {
+
+  width: 90%;
+  height: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.btn {
+  width: 100px;
+  height: 35px;
+  border: 1px solid #C77B41;
+  border-radius: 30px;
+  color: #C77B41;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.btn:hover {
+  background-color: #C77B41;
+  color: #FFF9EA;
+}
+
+.top-menu .btn {
+  background-color: rgba(0, 0, 0, 0);
+  color: #475E9B;
+
+  border: 1px solid #475E9B;
+
+}
+
+.top-menu .btn:hover {
+  background-color: #475E9B;
+  color: #FFF9EA;
+
+}
