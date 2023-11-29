@@ -3,14 +3,26 @@ import { useDraggable } from '@dnd-kit/core';
 import { CSS } from '@dnd-kit/utilities';
 import { Orloj } from './Orloj';
 import { Rudolfinum } from './Rudolfinum';
-import { TanciciDum } from '../Monument/TanciciDum';
-import { NarodniDivadlo } from '../Monument/NarodniDivadlo';
+import { TanciciDum } from './TanciciDum';
+import { NarodniDivadlo } from './NarodniDivadlo';
+import { ChramSvVita } from './ChramSvVita';
+import { ChramSvMikulase } from './ChramSvMikulase';
+import { Petrin } from './Petrin';
+import { KarluvMost } from './KarluvMost';
+import { NarodniMuzeum } from './NarodniMuzeum';
+import { ObecniDum } from './ObecniDum';
 
 const monumentSvgs = {
   orloj: Orloj,
   rudolfinum: Rudolfinum,
   tanciciDum: TanciciDum,
   narodniDivadlo: NarodniDivadlo,
+  chramSvVita: ChramSvVita,
+  chramSvMikulase: ChramSvMikulase,
+  petrin: Petrin,
+  karluvMost: KarluvMost,
+  narodniMuzeum: NarodniMuzeum,
+  obecniDum: ObecniDum,
 };
 
 export const Monument = (props) => {

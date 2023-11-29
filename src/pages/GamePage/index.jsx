@@ -10,6 +10,12 @@ const dropBoxData = [
   { position: 'rudolfinum-position', id: 'rudolfinum' },
   { position: 'narodni-divadlo-position', id: 'narodniDivadlo' },
   { position: 'tancici-dum-position', id: 'tanciciDum' },
+  { position: 'tancici-dum-position', id: 'chramSvVita' },
+  { position: 'tancici-dum-position', id: 'chramSvMikulase' },
+  { position: 'tancici-dum-position', id: 'petrin' },
+  { position: 'tancici-dum-position', id: 'karluvMost' },
+  { position: 'tancici-dum-position', id: 'narodniMuzeum' },
+  { position: 'tancici-dum-position', id: 'obecniDum' },
 ];
 
 export const GamePage = () => {

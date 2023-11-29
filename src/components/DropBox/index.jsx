@@ -4,12 +4,24 @@ import { Orloj } from '../Monument/Orloj';
 import { Rudolfinum } from '../Monument/Rudolfinum';
 import { TanciciDum } from '../Monument/TanciciDum';
 import { NarodniDivadlo } from '../Monument/NarodniDivadlo';
+import { ChramSvVita } from '../Monument/ChramSvVita';
+import { ChramSvMikulase } from '../Monument/ChramSvMikulase';
+import { Petrin } from '../Monument/Petrin';
+import { KarluvMost } from '../Monument/KarluvMost';
+import { NarodniMuzeum } from '../Monument/NarodniMuzeum';
+import { ObecniDum } from '../Monument/ObecniDum';
 
 const dropBoxSvgs = {
   orloj: Orloj,
   rudolfinum: Rudolfinum,
   tanciciDum: TanciciDum,
   narodniDivadlo: NarodniDivadlo,
+  chramSvVita: ChramSvVita,
+  chramSvMikulase: ChramSvMikulase,
+  petrin: Petrin,
+  karluvMost: KarluvMost,
+  narodniMuzeum: NarodniMuzeum,
+  obecniDum: ObecniDum,
 };
 
 export const DropBox = (props) => {
