@@ -9,3 +9,15 @@
   left: 300px;
   top: 500px;
 }
+
+.narodni-divadlo-position {
+  position: absolute;
+  left: 600px;
+  top: 700px;
+}
+
+.tancici-dum-position {
+  position: absolute;
+  left: 800px;
+  bottom: 200px;
+}

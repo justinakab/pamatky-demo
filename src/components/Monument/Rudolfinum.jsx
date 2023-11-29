@@ -1,4 +1,4 @@
-export const Rudolfinum2 = () => {
+export const Rudolfinum = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

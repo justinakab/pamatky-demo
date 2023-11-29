@@ -8,20 +8,21 @@ import { monuments } from '../../../lib/data';
 const dropBoxData = [
   { position: 'orloj-position', id: 'orloj' },
   { position: 'rudolfinum-position', id: 'rudolfinum' },
+  { position: 'narodni-divadlo-position', id: 'narodniDivadlo' },
+  { position: 'tancici-dum-position', id: 'tanciciDum' },
 ];
 
 export const GamePage = () => {
   const [isSolved, setIsSolved] = useState({
     orloj: false,
     rudolfinum: false,
+    narodniDivadlo: false,
+    tanciciDum: false,
   });
 
-  // const [activeID, setActiveId] = useState('');
   const handleDragStart = (event) => {
     console.log('Drag start called', event);
     const { active } = event;
-
-    // setActiveId(active.id);
   };
 
   const handleDragEnd = (event) => {

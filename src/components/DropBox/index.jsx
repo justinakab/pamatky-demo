@@ -1,11 +1,15 @@
 import './style.css';
 import { useDroppable } from '@dnd-kit/core';
-import { Orloj2 } from '../Monument/Orloj2';
-import { Rudolfinum2 } from '../Monument/Rudolfinum2';
+import { Orloj } from '../Monument/Orloj';
+import { Rudolfinum } from '../Monument/Rudolfinum';
+import { TanciciDum } from '../Monument/TanciciDum';
+import { NarodniDivadlo } from '../Monument/NarodniDivadlo';
 
 const dropBoxSvgs = {
-  orloj: Orloj2,
-  rudolfinum: Rudolfinum2,
+  orloj: Orloj,
+  rudolfinum: Rudolfinum,
+  tanciciDum: TanciciDum,
+  narodniDivadlo: NarodniDivadlo,
 };
 
 export const DropBox = (props) => {

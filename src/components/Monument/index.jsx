@@ -1,12 +1,16 @@
 import React from 'react';
 import { useDraggable } from '@dnd-kit/core';
 import { CSS } from '@dnd-kit/utilities';
-import { Orloj2 } from './Orloj2';
-import { Rudolfinum2 } from './Rudolfinum2';
+import { Orloj } from './Orloj';
+import { Rudolfinum } from './Rudolfinum';
+import { TanciciDum } from '../Monument/TanciciDum';
+import { NarodniDivadlo } from '../Monument/NarodniDivadlo';
 
 const monumentSvgs = {
-  orloj: Orloj2,
-  rudolfinum: Rudolfinum2,
+  orloj: Orloj,
+  rudolfinum: Rudolfinum,
+  tanciciDum: TanciciDum,
+  narodniDivadlo: NarodniDivadlo,
 };
 
 export const Monument = (props) => {
