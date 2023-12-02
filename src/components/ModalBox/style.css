@@ -23,7 +23,7 @@
 }
 
 .modal-box--top {
-  height: 30%;
+  height: 20%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -53,13 +53,18 @@
 }
 
 .modal-box--text {
-  width: 40%;
+  width: 50%;
   margin-right: 20px;
   font-family: 'Poppins', sans-serif;
 }
 
 .highlight {
   color: #CB6F03;
+}
+
+.highlight--bigger {
+  font-size: 20px;
+  font-weight: bold;
 }
 
 /* media queries */
@@ -70,4 +75,14 @@
     top: 30px;
     right: 30px;
   }
+
+  .modal-box--text {
+    text-align: left;
+  }
+
+  .highlight--bigger {
+    text-align: center;
+  }
+
+
 }
