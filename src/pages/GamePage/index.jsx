@@ -22,9 +22,12 @@ const dropBoxData = [
 ];
 
 export const GamePage = () => {
+  // konstanty
   const [activeId, setActiveId] = useState(null);
 
   const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const [message, setMessage] = useState('Začni hrát!');
 
   const [isSolved, setIsSolved] = useState({
     orloj: false,
@@ -50,6 +53,9 @@ export const GamePage = () => {
       const newIsSolved = { ...isSolved, [active.id]: true };
 
       setIsSolved(newIsSolved);
+      setMessage('Správně!');
+    } else if (active.id !== over.id) {
+      setMessage('Zkus to ještě jednou!');
     }
 
     setActiveId(null);
@@ -71,14 +77,14 @@ export const GamePage = () => {
 
           {/* <img className="left-column--map" src="map.png"></img> */}
           <Map></Map>
-          {/* {dropBoxData.map((dropBox) => (
+          {dropBoxData.map((dropBox) => (
             <DropBox
               isSolved={isSolved}
               boxClass={dropBox.position}
               id={dropBox.id}
               key={dropBox.id}
             ></DropBox>
-          ))} */}
+          ))}
         </div>
         <div className="right-column">
           <div className="top-menu">
@@ -92,7 +98,7 @@ export const GamePage = () => {
           </div>
 
           <div className="message-box">
-            <MessageBox></MessageBox>
+            <MessageBox message={message}></MessageBox>
           </div>
           <div className="monuments-box">
             <div className="monuments-box--list">
