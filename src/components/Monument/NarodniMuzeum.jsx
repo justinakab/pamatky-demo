@@ -152,7 +152,7 @@ export const NarodniMuzeum = () => {
       <path
         d="M60.703 69.0579V69.0897V72.433H58.0378V69.0897V69.0579"
         stroke="#CB6F03"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M65.6254 66.8963V66.8645C65.6254 66.2658 65.0266 65.7783 64.2901 65.7783C63.5536 65.7783 62.9602 66.2605 62.9602 66.8645V66.8963"
@@ -162,7 +162,7 @@ export const NarodniMuzeum = () => {
       <path
         d="M65.6254 66.8645V66.8963V69.9642H62.9602V66.8963V66.8645"
         stroke="#CB6F03"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M54.2864 69.0898V69.058C54.2864 68.401 53.6877 67.8711 52.9512 67.8711C52.2147 67.8711 51.6212 68.401 51.6212 69.058V69.0898"
@@ -172,7 +172,7 @@ export const NarodniMuzeum = () => {
       <path
         d="M54.2864 69.0579V69.0897V72.433H51.6212V69.0897V69.0579"
         stroke="#CB6F03"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M47.9281 69.0898V69.058C47.9281 68.401 47.3294 67.8711 46.5929 67.8711C45.8564 67.8711 45.263 68.401 45.263 69.058V69.0898"
@@ -182,7 +182,7 @@ export const NarodniMuzeum = () => {
       <path
         d="M47.9281 69.0579V69.0897V72.433H45.263V69.0897V69.0579"
         stroke="#CB6F03"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M41.7288 69.0898V69.058C41.7288 68.401 41.1301 67.8711 40.3936 67.8711C39.6571 67.8711 39.0637 68.401 39.0637 69.058V69.0898"
@@ -192,7 +192,7 @@ export const NarodniMuzeum = () => {
       <path
         d="M41.7288 69.0579V69.0897V72.433H39.0637V69.0897V69.0579"
         stroke="#CB6F03"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M35.4235 69.0898V69.058C35.4235 68.401 34.8248 67.8711 34.0883 67.8711C33.3518 67.8711 32.7584 68.401 32.7584 69.058V69.0898"
@@ -202,7 +202,7 @@ export const NarodniMuzeum = () => {
       <path
         d="M35.4235 69.0579V69.0897V72.433H32.7584V69.0897V69.0579"
         stroke="#CB6F03"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M60.5705 77.5358V77.504C60.5705 76.847 59.9718 76.3171 59.2353 76.3171C58.4988 76.3171 57.9054 76.847 57.9054 77.504V77.5358"
@@ -212,7 +212,7 @@ export const NarodniMuzeum = () => {
       <path
         d="M60.5705 77.5039V77.5357V80.8791H57.9054V77.5357V77.5039"
         stroke="#CB6F03"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M54.1593 77.5358V77.504C54.1593 76.847 53.5605 76.3171 52.824 76.3171C52.0875 76.3171 51.4941 76.847 51.4941 77.504V77.5358"
@@ -222,7 +222,7 @@ export const NarodniMuzeum = () => {
       <path
         d="M54.1593 77.5039V77.5357V80.8791H51.4941V77.5357V77.5039"
         stroke="#CB6F03"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M47.801 77.5358V77.504C47.801 76.847 47.2022 76.3171 46.4657 76.3171C45.7292 76.3171 45.1358 76.847 45.1358 77.504V77.5358"
@@ -232,7 +232,7 @@ export const NarodniMuzeum = () => {
       <path
         d="M47.801 77.5039V77.5357V80.8791H45.1358V77.5357V77.5039"
         stroke="#CB6F03"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M41.5964 77.5358V77.504C41.5964 76.847 40.9976 76.3171 40.2611 76.3171C39.5246 76.3171 38.9312 76.847 38.9312 77.504V77.5358"
@@ -242,7 +242,7 @@ export const NarodniMuzeum = () => {
       <path
         d="M41.5964 77.5039V77.5357V80.8791H38.9312V77.5357V77.5039"
         stroke="#CB6F03"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M35.2911 77.5358V77.504C35.2911 76.847 34.6923 76.3171 33.9558 76.3171C33.2193 76.3171 32.6259 76.847 32.6259 77.504V77.5358"
@@ -252,7 +252,7 @@ export const NarodniMuzeum = () => {
       <path
         d="M35.2911 77.5039V77.5357V80.8791H32.6259V77.5357V77.5039"
         stroke="#CB6F03"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M24.0316 75.8613V75.8295C24.0316 75.1724 23.4329 74.6426 22.6964 74.6426C21.9599 74.6426 21.3664 75.1724 21.3664 75.8295V75.8613"
@@ -262,7 +262,7 @@ export const NarodniMuzeum = () => {
       <path
         d="M24.0316 75.8293V75.8611V79.2045H21.3664V75.8611V75.8293"
         stroke="#CB6F03"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M23.968 66.467V66.4352C23.968 65.7781 23.3693 65.2483 22.6328 65.2483C21.8963 65.2483 21.3029 65.7781 21.3029 66.4352V66.467"
@@ -272,7 +272,7 @@ export const NarodniMuzeum = () => {
       <path
         d="M23.968 66.4351V66.4669V69.8155H21.3029V66.4669V66.4351"
         stroke="#CB6F03"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M72.8632 42.9731V42.9307C72.8632 42.1412 72.4287 41.5054 71.8883 41.5054C71.3478 41.5054 70.9186 42.1412 70.9186 42.9307V42.9731"
@@ -282,7 +282,7 @@ export const NarodniMuzeum = () => {
       <path
         d="M72.8632 42.9307V42.9731V47H70.9186V42.9731V42.9307"
         stroke="#CB6F03"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M75.894 28.1425V28.1266C75.894 27.8087 76.3179 27.5544 76.853 27.5491H76.8636"
@@ -292,7 +292,7 @@ export const NarodniMuzeum = () => {
       <path
         d="M75.894 28.1267V28.1426V29.7746H76.853H76.8636"
         stroke="#CB6F03"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M75.894 25.0322V25.0163C75.894 24.6984 76.3232 24.4441 76.8636 24.4441"
@@ -302,7 +302,7 @@ export const NarodniMuzeum = () => {
       <path
         d="M76.8636 26.6642H76.8583H76.853H75.894V25.0323V25.0164"
         stroke="#CB6F03"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M76.8636 26.6641H76.853C75.8516 26.6641 75.0515 27.0403 75.0515 27.5118V27.533"
@@ -312,7 +312,7 @@ export const NarodniMuzeum = () => {
       <path
         d="M75.0515 27.5117V27.5329V29.9226H76.853H76.8636"
         stroke="#CB6F03"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M75.8887 42.9731V42.936C75.8887 42.1518 76.3179 41.516 76.853 41.5054H76.8636"
@@ -327,12 +327,12 @@ export const NarodniMuzeum = () => {
       <path
         d="M75.8887 42.936V42.9731V47H76.853H76.8636"
         stroke="#CB6F03"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M77.8386 42.9731V42.936"
         stroke="#CB6F03"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M66.9182 55.0591H61.6673V57.2739H66.9182V55.0591Z"
@@ -561,22 +561,22 @@ export const NarodniMuzeum = () => {
       <path
         d="M17.5833 48.0652V48.1447V50.0998"
         stroke="#CB6F03"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M17.5833 52.9079V51.4773"
         stroke="#CB6F03"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M27.7406 48.0652V48.1447V50.0998"
         stroke="#CB6F03"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M27.7406 52.9079V51.4773"
         stroke="#CB6F03"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M29.9183 51.843C30.4012 51.843 30.7926 51.4516 30.7926 50.9687C30.7926 50.4859 30.4012 50.0945 29.9183 50.0945C29.4355 50.0945 29.0441 50.4859 29.0441 50.9687C29.0441 51.4516 29.4355 51.843 29.9183 51.843Z"
@@ -654,17 +654,17 @@ export const NarodniMuzeum = () => {
       <path
         d="M73.2235 78.5266V80.8845H70.5583V78.5266"
         stroke="#CB6F03"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M70.5583 76.6986V75.1408V75.0825"
         stroke="#CB6F03"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M73.2235 76.6986V75.1408V75.0825"
         stroke="#CB6F03"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M76.8636 73.0107H76.853C76.1218 73.0213 75.5337 73.9221 75.5337 75.0454V75.1037"
@@ -674,12 +674,12 @@ export const NarodniMuzeum = () => {
       <path
         d="M75.5337 76.6986V75.1037V75.0454"
         stroke="#CB6F03"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M76.8636 80.8474H76.853H75.5337V78.5266"
         stroke="#CB6F03"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M72.9003 66.3452V66.2976C72.9003 65.3173 72.5188 64.5278 72.0472 64.5278C71.5757 64.5278 71.1995 65.3173 71.1995 66.2976V66.3452"
@@ -689,7 +689,7 @@ export const NarodniMuzeum = () => {
       <path
         d="M72.9003 66.2922V66.3452V71.3365H71.1995V66.3452V66.2922"
         stroke="#CB6F03"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M76.8636 64.6021H76.853C76.3868 64.6126 76.0106 65.3968 76.0106 66.3718V66.4195"
@@ -699,7 +699,7 @@ export const NarodniMuzeum = () => {
       <path
         d="M76.8636 71.4108H76.853H76.0106V67.5905V66.4195V66.3718"
         stroke="#CB6F03"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M70.3782 57.4382H69.2655V68.6341H70.3782V57.4382Z"
@@ -904,7 +904,7 @@ export const NarodniMuzeum = () => {
       <path
         d="M95.6789 69.0579V69.0897V72.433H93.0137V69.0897V69.0579"
         stroke="#CB6F03"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M90.7565 66.8961V66.8643C90.7565 66.2655 90.1631 65.7781 89.4265 65.7781C88.69 65.7781 88.0913 66.2602 88.0913 66.8643V66.8961"
@@ -914,7 +914,7 @@ export const NarodniMuzeum = () => {
       <path
         d="M90.7565 66.8643V66.896V69.9639H88.0913V66.896V66.8643"
         stroke="#CB6F03"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M102.09 69.0898V69.058C102.09 68.401 101.497 67.8711 100.76 67.8711C100.024 67.8711 99.4249 68.401 99.4249 69.058V69.0898"
@@ -924,7 +924,7 @@ export const NarodniMuzeum = () => {
       <path
         d="M102.09 69.0579V69.0897V72.433H99.4249V69.0897V69.0579"
         stroke="#CB6F03"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M108.448 69.0898V69.058C108.448 68.401 107.855 67.8711 107.118 67.8711C106.382 67.8711 105.783 68.401 105.783 69.058V69.0898"
@@ -934,7 +934,7 @@ export const NarodniMuzeum = () => {
       <path
         d="M108.448 69.0579V69.0897V72.433H105.783V69.0897V69.0579"
         stroke="#CB6F03"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M114.653 69.0898V69.058C114.653 68.401 114.06 67.8711 113.323 67.8711C112.587 67.8711 111.988 68.401 111.988 69.058V69.0898"
@@ -944,7 +944,7 @@ export const NarodniMuzeum = () => {
       <path
         d="M114.653 69.0579V69.0897V72.433H111.988V69.0897V69.0579"
         stroke="#CB6F03"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M120.958 69.0898V69.058C120.958 68.401 120.365 67.8711 119.628 67.8711C118.892 67.8711 118.293 68.401 118.293 69.058V69.0898"
@@ -954,7 +954,7 @@ export const NarodniMuzeum = () => {
       <path
         d="M120.958 69.0579V69.0897V72.433H118.293V69.0897V69.0579"
         stroke="#CB6F03"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M95.806 77.5358V77.504C95.806 76.847 95.2126 76.3171 94.4761 76.3171C93.7396 76.3171 93.1408 76.847 93.1408 77.504V77.5358"
@@ -964,7 +964,7 @@ export const NarodniMuzeum = () => {
       <path
         d="M95.806 77.5039V77.5357V80.8791H93.1408V77.5357V77.5039"
         stroke="#CB6F03"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M102.223 77.5358V77.504C102.223 76.847 101.629 76.3171 100.893 76.3171C100.156 76.3171 99.5574 76.847 99.5574 77.504V77.5358"
@@ -974,7 +974,7 @@ export const NarodniMuzeum = () => {
       <path
         d="M102.223 77.5039V77.5357V80.8791H99.5574V77.5357V77.5039"
         stroke="#CB6F03"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M108.576 77.5358V77.504C108.576 76.847 107.982 76.3171 107.246 76.3171C106.509 76.3171 105.91 76.847 105.91 77.504V77.5358"
@@ -984,7 +984,7 @@ export const NarodniMuzeum = () => {
       <path
         d="M108.576 77.5039V77.5357V80.8791H105.91V77.5357V77.5039"
         stroke="#CB6F03"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M114.78 77.5358V77.504C114.78 76.847 114.187 76.3171 113.45 76.3171C112.714 76.3171 112.115 76.847 112.115 77.504V77.5358"
@@ -994,7 +994,7 @@ export const NarodniMuzeum = () => {
       <path
         d="M114.78 77.5039V77.5357V80.8791H112.115V77.5357V77.5039"
         stroke="#CB6F03"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M121.085 77.5358V77.504C121.085 76.847 120.492 76.3171 119.756 76.3171C119.019 76.3171 118.42 76.847 118.42 77.504V77.5358"
@@ -1004,7 +1004,7 @@ export const NarodniMuzeum = () => {
       <path
         d="M121.085 77.5039V77.5357V80.8791H118.42V77.5357V77.5039"
         stroke="#CB6F03"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M132.35 75.8613V75.8295C132.35 75.1724 131.757 74.6426 131.02 74.6426C130.284 74.6426 129.685 75.1724 129.685 75.8295V75.8613"
@@ -1014,7 +1014,7 @@ export const NarodniMuzeum = () => {
       <path
         d="M132.35 75.8293V75.8611V79.2045H129.685V75.8611V75.8293"
         stroke="#CB6F03"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M132.409 66.467V66.4352C132.409 65.7781 131.815 65.2483 131.079 65.2483C130.342 65.2483 129.743 65.7781 129.743 66.4352V66.467"
@@ -1024,7 +1024,7 @@ export const NarodniMuzeum = () => {
       <path
         d="M132.409 66.4351V66.4669V69.8155H129.743V66.4669V66.4351"
         stroke="#CB6F03"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M82.7927 42.9731V42.9307C82.7927 42.1412 82.3582 41.5054 81.8231 41.5054C81.2879 41.5054 80.8481 42.1412 80.8481 42.9307V42.9731"
@@ -1034,7 +1034,7 @@ export const NarodniMuzeum = () => {
       <path
         d="M82.7927 42.9307V42.9731V47H80.8481V42.9731V42.9307"
         stroke="#CB6F03"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M76.853 27.5491H76.8636C77.3988 27.5544 77.8227 27.8087 77.8227 28.1266V28.1425"
@@ -1044,7 +1044,7 @@ export const NarodniMuzeum = () => {
       <path
         d="M76.853 29.7746H76.8636H77.8227V28.1426V28.1267"
         stroke="#CB6F03"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M76.8477 24.4441C77.3882 24.4441 77.8174 24.6984 77.8174 25.0163V25.0322"
@@ -1054,7 +1054,7 @@ export const NarodniMuzeum = () => {
       <path
         d="M77.8227 25.0164V25.0323V26.6642H76.8637H76.8584H76.8531"
         stroke="#CB6F03"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M78.6651 27.533V27.5118C78.6651 27.0403 77.8651 26.6641 76.8636 26.6641H76.853"
@@ -1064,7 +1064,7 @@ export const NarodniMuzeum = () => {
       <path
         d="M76.853 29.9226H76.8636H78.6651V27.5329V27.5117"
         stroke="#CB6F03"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M76.853 41.5054H76.8636C77.3988 41.516 77.828 42.1518 77.828 42.936V42.9731"
@@ -1079,12 +1079,12 @@ export const NarodniMuzeum = () => {
       <path
         d="M76.853 47H76.8636H77.828V42.9731V42.936"
         stroke="#CB6F03"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M75.8728 42.936V42.9731"
         stroke="#CB6F03"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M86.7984 57.2739H92.0493V55.0591H86.7984V57.2739Z"
@@ -1313,22 +1313,22 @@ export const NarodniMuzeum = () => {
       <path
         d="M136.128 50.0998V48.1447V48.0652"
         stroke="#CB6F03"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M136.128 51.4773V52.9079"
         stroke="#CB6F03"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M125.971 50.0998V48.1447V48.0652"
         stroke="#CB6F03"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M125.971 51.4773V52.9079"
         stroke="#CB6F03"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M123.798 51.843C124.281 51.843 124.673 51.4516 124.673 50.9687C124.673 50.4859 124.281 50.0945 123.798 50.0945C123.315 50.0945 122.924 50.4859 122.924 50.9687C122.924 51.4516 123.315 51.843 123.798 51.843Z"
@@ -1410,17 +1410,17 @@ export const NarodniMuzeum = () => {
       <path
         d="M83.153 78.5266V80.8845H80.4879V78.5266"
         stroke="#CB6F03"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M83.153 75.0825V75.1408V76.6986"
         stroke="#CB6F03"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M80.4879 75.0825V75.1408V76.6986"
         stroke="#CB6F03"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M78.183 75.1037V75.0454C78.183 73.9221 77.5948 73.0213 76.8636 73.0107H76.853"
@@ -1430,12 +1430,12 @@ export const NarodniMuzeum = () => {
       <path
         d="M78.183 75.0454V75.1037V76.6986"
         stroke="#CB6F03"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M78.183 78.5266V80.8474H76.8636H76.853"
         stroke="#CB6F03"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M82.5119 66.3452V66.2976C82.5119 65.3173 82.1304 64.5278 81.6641 64.5278C81.1979 64.5278 80.8111 65.3173 80.8111 66.2976V66.3452"
@@ -1445,7 +1445,7 @@ export const NarodniMuzeum = () => {
       <path
         d="M82.5119 66.2922V66.3452V71.3365H80.8111V66.3452V66.2922"
         stroke="#CB6F03"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M77.7061 66.4195V66.3718C77.7061 65.3968 77.3299 64.6126 76.8636 64.6021H76.853"
@@ -1455,7 +1455,7 @@ export const NarodniMuzeum = () => {
       <path
         d="M77.7061 66.3718V66.4195V67.5905V71.4108H76.8636H76.853"
         stroke="#CB6F03"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M84.4512 57.4382H83.3385V68.6341H84.4512V57.4382Z"

@@ -33,25 +33,31 @@ export const DropBox = (props) => {
     border: isOver ? '2px solid red' : undefined,
   };
 
-  console.log(props.isSolved);
+  const DropBoxSvg = dropBoxSvgs[props.id];
 
   return (
     <>
-      <svg
-        className={props.boxClass}
-        style={style}
-        ref={setNodeRef}
-        xmlns="http://www.w3.org/2000/svg"
-        width="96"
-        height="96"
-        viewBox="0 0 96 96"
-        fill="none"
-      >
-        <path
-          d="M47.9402 95.8804C74.4169 95.8804 95.8805 74.4169 95.8805 47.9402C95.8805 21.4636 74.4169 0 47.9402 0C21.4636 0 0 21.4636 0 47.9402C0 74.4169 21.4636 95.8804 47.9402 95.8804Z"
-          fill="#DBBD1C"
-        />
-      </svg>
+      {props.isSolved[props.id] ? (
+        <div ref={setNodeRef} style={style} className={props.boxClass}>
+          <DropBoxSvg />
+        </div>
+      ) : (
+        <svg
+          className={props.boxClass}
+          style={style}
+          ref={setNodeRef}
+          xmlns="http://www.w3.org/2000/svg"
+          width="96"
+          height="96"
+          viewBox="0 0 96 96"
+          fill="none"
+        >
+          <path
+            d="M47.9402 95.8804C74.4169 95.8804 95.8805 74.4169 95.8805 47.9402C95.8805 21.4636 74.4169 0 47.9402 0C21.4636 0 0 21.4636 0 47.9402C0 74.4169 21.4636 95.8804 47.9402 95.8804Z"
+            fill="#DBBD1C"
+          />
+        </svg>
+      )}
     </>
   );
 };

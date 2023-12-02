@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
 
 .container {
   display: flex;
@@ -10,7 +9,7 @@
 
 .left-column {
   /* border: 1px solid red; */
-  background-color: #F3EFE9;
+  background-color: #f3efe9;
   position: relative;
   width: 80%;
   position: relative;
@@ -18,20 +17,18 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-
 }
 
 .left-column--map {
   width: 100%;
   max-height: 100%;
   flex-shrink: 1;
+  z-index: 0;
 }
 
 .right-column {
   /* border: 1px solid blue; */
-
-  background-color: #FFF9EA;
-
+  background-color: #fff9ea;
   display: flex;
   flex-direction: column;
   width: 20%;
@@ -45,25 +42,23 @@
   align-items: center;
   flex-wrap: wrap;
   height: 15%;
-  background-color: #F3EFE9;
-
+  background-color: #f3efe9;
 }
 
 .message-box {
   /* border: 1px solid green; */
-  background-color: #C77B41;
+  background-color: #c77b41;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 25%;
+  height: 15%;
   border-radius: 0px 0px 30px 30px;
-
 }
 
 .message-box--text {
-  color: #FFF9EA;
+  color: #fff9ea;
   text-align: center;
-  font-family: 'STIX Two Text', serif;
+  font-family: "STIX Two Text", serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
@@ -72,50 +67,47 @@
 
 .monuments-box {
   /* border: 1px solid rgb(230, 21, 56); */
-
-  background-color: #FFF9EA;
+  background-color: #fff9ea;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
   align-items: center;
-  height: 60%;
+  gap: 20px;
+  height: 70%;
+  margin: 20px 0;
 }
 
 .monuments-box--list {
-
   width: 90%;
-  height: 60%;
+  height: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
-  /* overflow: auto; */
+  overflow-y: auto;
 }
 
 .btn {
   width: 100px;
   height: 35px;
-  border: 1px solid #C77B41;
+  border: 1px solid #c77b41;
   border-radius: 30px;
-  color: #C77B41;
+  color: #c77b41;
   background-color: rgba(0, 0, 0, 0);
 }
 
 .btn:hover {
-  background-color: #C77B41;
-  color: #FFF9EA;
+  background-color: #c77b41;
+  color: #fff9ea;
 }
 
 .top-menu .btn {
   background-color: rgba(0, 0, 0, 0);
-  color: #475E9B;
+  color: #475e9b;
 
-  border: 1px solid #475E9B;
-
+  border: 1px solid #475e9b;
 }
 
 .top-menu .btn:hover {
-  background-color: #475E9B;
-  color: #FFF9EA;
-
+  background-color: #475e9b;
+  color: #fff9ea;
 }

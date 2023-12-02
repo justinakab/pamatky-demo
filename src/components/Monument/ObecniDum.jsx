@@ -222,31 +222,31 @@ export const ObecniDum = () => {
         d="M42.244 77.8591H134.357"
         stroke="#CB6F03"
         strokeMiterlimit="10"
-        stroke-linecap="square"
+        strokeLinecap="square"
       />
       <path
         d="M121.243 55.9778V90.0241"
         stroke="#CB6F03"
         strokeMiterlimit="10"
-        stroke-linecap="square"
+        strokeLinecap="square"
       />
       <path
         d="M42.244 76.0503H134.357"
         stroke="#CB6F03"
         strokeMiterlimit="10"
-        stroke-linecap="square"
+        strokeLinecap="square"
       />
       <path
         d="M121.344 63.1594H134.357"
         stroke="#CB6F03"
         strokeMiterlimit="10"
-        stroke-linecap="square"
+        strokeLinecap="square"
       />
       <path
         d="M121.344 57.3489H135.222"
         stroke="#CB6F03"
         strokeMiterlimit="10"
-        stroke-linecap="square"
+        strokeLinecap="square"
       />
       <path d="M42.244 74.759H134.357" stroke="#CB6F03" strokeMiterlimit="10" />
       <path
@@ -679,97 +679,97 @@ export const ObecniDum = () => {
         d="M44.1755 74.759V76.0502"
         stroke="#CB6F03"
         strokeMiterlimit="10"
-        stroke-linecap="square"
+        strokeLinecap="square"
       />
       <path
         d="M49.3724 74.759V76.0502"
         stroke="#CB6F03"
         strokeMiterlimit="10"
-        stroke-linecap="square"
+        strokeLinecap="square"
       />
       <path
         d="M51.2505 74.759V76.0502"
         stroke="#CB6F03"
         strokeMiterlimit="10"
-        stroke-linecap="square"
+        strokeLinecap="square"
       />
       <path
         d="M56.4474 74.759V76.0502"
         stroke="#CB6F03"
         strokeMiterlimit="10"
-        stroke-linecap="square"
+        strokeLinecap="square"
       />
       <path
         d="M58.3895 74.759V76.0502"
         stroke="#CB6F03"
         strokeMiterlimit="10"
-        stroke-linecap="square"
+        strokeLinecap="square"
       />
       <path
         d="M63.5917 74.759V76.0502"
         stroke="#CB6F03"
         strokeMiterlimit="10"
-        stroke-linecap="square"
+        strokeLinecap="square"
       />
       <path
         d="M65.3845 74.759V76.0502"
         stroke="#CB6F03"
         strokeMiterlimit="10"
-        stroke-linecap="square"
+        strokeLinecap="square"
       />
       <path
         d="M70.5867 74.759V76.0502"
         stroke="#CB6F03"
         strokeMiterlimit="10"
-        stroke-linecap="square"
+        strokeLinecap="square"
       />
       <path
         d="M93.6951 74.759V76.0502"
         stroke="#CB6F03"
         strokeMiterlimit="10"
-        stroke-linecap="square"
+        strokeLinecap="square"
       />
       <path
         d="M98.892 74.759V76.0502"
         stroke="#CB6F03"
         strokeMiterlimit="10"
-        stroke-linecap="square"
+        strokeLinecap="square"
       />
       <path
         d="M100.77 74.759V76.0502"
         stroke="#CB6F03"
         strokeMiterlimit="10"
-        stroke-linecap="square"
+        strokeLinecap="square"
       />
       <path
         d="M105.967 74.759V76.0502"
         stroke="#CB6F03"
         strokeMiterlimit="10"
-        stroke-linecap="square"
+        strokeLinecap="square"
       />
       <path
         d="M107.909 74.759V76.0502"
         stroke="#CB6F03"
         strokeMiterlimit="10"
-        stroke-linecap="square"
+        strokeLinecap="square"
       />
       <path
         d="M113.106 74.759V76.0502"
         stroke="#CB6F03"
         strokeMiterlimit="10"
-        stroke-linecap="square"
+        strokeLinecap="square"
       />
       <path
         d="M114.904 74.759V76.0502"
         stroke="#CB6F03"
         strokeMiterlimit="10"
-        stroke-linecap="square"
+        strokeLinecap="square"
       />
       <path
         d="M120.106 74.759V76.0502"
         stroke="#CB6F03"
         strokeMiterlimit="10"
-        stroke-linecap="square"
+        strokeLinecap="square"
       />
       <path
         d="M48.9562 80.7668H44.645V90.0241H48.9562V80.7668Z"
@@ -1010,13 +1010,13 @@ export const ObecniDum = () => {
         d="M134.358 80.7668H84.7419"
         stroke="#CB6F03"
         strokeMiterlimit="10"
-        stroke-linecap="square"
+        strokeLinecap="square"
       />
       <path
         d="M79.7585 80.7668H42.244"
         stroke="#CB6F03"
         strokeMiterlimit="10"
-        stroke-linecap="square"
+        strokeLinecap="square"
       />
       <path
         d="M42.244 87.8738H134.357"
@@ -1127,19 +1127,19 @@ export const ObecniDum = () => {
         d="M87.1589 63.1594V59.9688"
         stroke="#CB6F03"
         strokeMiterlimit="10"
-        stroke-linecap="square"
+        strokeLinecap="square"
       />
       <path
         d="M77.2295 63.1594V59.9688"
         stroke="#CB6F03"
         strokeMiterlimit="10"
-        stroke-linecap="square"
+        strokeLinecap="square"
       />
       <path
         d="M42.1427 64.979H121.243"
         stroke="#CB6F03"
         strokeMiterlimit="10"
-        stroke-linecap="square"
+        strokeLinecap="square"
       />
       <path
         d="M70.3466 64.979C70.3466 65.8327 70.8481 66.5263 71.467 66.5263C72.086 66.5263 72.5875 65.8327 72.5875 64.979"
@@ -1150,13 +1150,13 @@ export const ObecniDum = () => {
         d="M78.5048 62.1189C78.5048 62.1189 78.985 61.564 80.3989 61.3933"
         stroke="#CB6F03"
         strokeMiterlimit="10"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M85.8891 62.1189C85.8891 62.1189 85.4089 61.564 83.995 61.3933"
         stroke="#CB6F03"
         strokeMiterlimit="10"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
       <path
         d="M80.3934 61.3933H83.9949"

@@ -33,7 +33,7 @@ export const Monument = (props) => {
   const style = {
     transform: CSS.Translate.toString(transform),
   };
-
+  // width: isDragging ? '100px' : '154px',
   const MonumentSvg = monumentSvgs[props.id];
 
   return (

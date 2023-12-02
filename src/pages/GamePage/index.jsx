@@ -1,9 +1,10 @@
-import { DndContext, closestCenter } from '@dnd-kit/core';
+import { DndContext, closestCenter, DragOverlay } from '@dnd-kit/core';
 import { DropBox } from '../../components/DropBox';
 import './style.css';
 import { useState } from 'react';
 import { Monument } from '../../components/Monument';
 import { monuments } from '../../../lib/data';
+import { Map } from './map';
 
 const dropBoxData = [
   { position: 'orloj-position', id: 'orloj' },
@@ -19,6 +20,7 @@ const dropBoxData = [
 ];
 
 export const GamePage = () => {
+  const [activeId, setActiveId] = useState(null);
   const [isSolved, setIsSolved] = useState({
     orloj: false,
     rudolfinum: false,
@@ -28,7 +30,8 @@ export const GamePage = () => {
 
   const handleDragStart = (event) => {
     console.log('Drag start called', event);
-    const { active } = event;
+
+    setActiveId(event.active.id);
   };
 
   const handleDragEnd = (event) => {
@@ -43,6 +46,8 @@ export const GamePage = () => {
 
       setIsSolved(newIsSolved);
     }
+
+    setActiveId(null);
   };
 
   return (
@@ -53,7 +58,8 @@ export const GamePage = () => {
         onDragEnd={handleDragEnd}
       >
         <div className="left-column">
-          <img className="left-column--map" src="map.png"></img>
+          {/* <img className="left-column--map" src="map.png"></img> */}
+          <Map></Map>
           {dropBoxData.map((dropBox) => (
             <DropBox
               isSolved={isSolved}
@@ -73,13 +79,14 @@ export const GamePage = () => {
             <p className="message-box--text">Začni hrát!</p>
           </div>
           <div className="monuments-box">
-            <button className="btn">up</button>
             <div className="monuments-box--list">
               {monuments.map((monument) => (
                 <Monument key={monument.id} id={monument.id}></Monument>
               ))}
             </div>
-            <button className="btn">down</button>
+            <DragOverlay>
+              {activeId ? <Monument id={activeId} /> : null}
+            </DragOverlay>
           </div>
         </div>
       </DndContext>
