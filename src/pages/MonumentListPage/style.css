@@ -1,0 +1,70 @@
+
+.list {
+    display: flex;
+    
+    width: 100vw;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: space-between;
+    
+}
+
+.list__left--col {
+    width: 50%;
+}
+
+.list__right--col {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.container__monumentslink{
+    display: flex;
+    flex-direction: column;
+}
+
+.orloj--img {
+    background-image: url(./img/orloj.jpg);
+    height: 700px;
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+    aspect-ratio: 3744 / 5616;
+}
+
+.monuments-list {
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+align-content: stretch;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 22px;
+margin-top: 80px;
+margin-left: 220px;
+font-size: 24px;
+    font-weight: bold;
+}
+
+.monument__name {
+    text-decoration: none;
+}
+
+ul {
+    text-decoration: none;
+}
+
+li {
+    color: #CB6F03;
+  }
+
+@media (max-width:900px) {
+
+.list {
+flex-direction: column;
+
+}
+}
