@@ -5,6 +5,7 @@ header {
     background-color: #CB6F03;
     text-align: left;
     border-radius: 0 0 20px 20px;
+    align-items: center;
   }
   
   .container--hamburger-menu {

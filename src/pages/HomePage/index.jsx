@@ -27,11 +27,11 @@ export const HomePage = () => {
             {/* tlačítka */}
             <div className="btns-container">
               <Link to="/monument-list">
-                <button className="btn bth--monuments">Chci se učit </button>{" "}
+                <button className="button bth--monuments">Chci se učit </button>{" "}
               </Link>
 
               <Link to="/game">
-                <button className="btn bth--about-us">Chci se otestovat</button>
+                <button className="button bth--about-us">Chci se otestovat</button>
               </Link>
             </div>
           </div>
