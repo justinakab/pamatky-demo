@@ -20,7 +20,7 @@
 .left-column--map {
   width: 100%;
   max-height: 100%;
-  flex-shrink: 1;
+  /* flex-shrink: 1; */
   z-index: 0;
 }
 
@@ -58,15 +58,7 @@
   border-radius: 0px 0px 30px 30px;
 }
 
-.message-box--text {
-  color: #fff9ea;
-  text-align: center;
-  font-family: "STIX Two Text", serif;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
+
 
 .monuments-box {
   /* border: 1px solid rgb(230, 21, 56); */
@@ -96,6 +88,7 @@
   border-radius: 30px;
   color: #c77b41;
   background-color: rgba(0, 0, 0, 0);
+  font-family: "Poppins", serif;
 }
 
 .btn:hover {

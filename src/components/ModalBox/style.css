@@ -58,6 +58,10 @@
   font-family: 'Poppins', sans-serif;
 }
 
+.highlight {
+  color: #CB6F03;
+}
+
 /* media queries */
 
 @media (min-width: 992px) {

@@ -33,13 +33,22 @@ export const ModalBox = ({ onIsModalOpen }) => {
         </div>
         <div className="modal-box-about--container">
           <p className="modal-box--text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            Cíl:{' '}
+            <span className="highlight">
+              Umísti všechny pražské památky správně do mapy.
+            </span>{' '}
+            <br></br> <br />
+            Jak na to? <br />
+            <ol>
+              <li>Vpravo na stránce najdeš celou řadu pražských památek.</li>
+              <li>
+                Postupně zkus každou památku přetáhnou na jedno ze žlutých míst
+                na mapě.
+              </li>
+              <li>Pokud ji umístíš správně, památka ti v mapě zůstane.</li>
+            </ol>
+            Nakonec si každou památku můžeš rozkliknout a přečíst si o ní
+            zajímavé informace. Užij si to!
           </p>
           <div className="modal-box-gif"></div>
         </div>
