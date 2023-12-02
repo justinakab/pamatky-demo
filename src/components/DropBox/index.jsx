@@ -7,7 +7,7 @@ export const DropBox = ({ id, x, y, isSolved }) => {
   });
 
   const style = {
-    border: isOver ? '2px solid red' : undefined,
+    fill: isOver ? '#C77B41' : '#DBBD1C',
   };
 
   return (

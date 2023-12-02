@@ -32,9 +32,17 @@ export const Monument = (props) => {
     });
 
   const style = {
-    transform: CSS.Translate.toString(transform),
-    /*width: isDragging ? '100px' : '154px',*/
+    cursor: 'grab',
+    opacity: 1,
   };
+  if (isDragging) {
+    style.opacity = 0.5;
+  }
+  if (props.overlay) {
+    style.cursor = 'grabbing';
+    style.transform = `scale(${100 / 156})`;
+  }
+
   const MonumentSvg = monumentSvgs[props.id];
 
   return (

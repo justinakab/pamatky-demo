@@ -8,21 +8,21 @@ import { Map } from './map';
 import { ModalBox } from '../../components/ModalBox';
 import { MessageBox } from '../../components/MessageBox';
 import { Link } from 'react-router-dom';
+import { WinnerBox } from '../../components/WinnerBox';
 
 const dropBoxData = [
-  { x: 651.545, y: 322.019, id: 'orloj' }, //
-  { x: 506.545, y: 224.019, id: 'rudolfinum' }, //
-  { x: 488.545, y: 586.019, id: 'narodniDivadlo' }, //
-  { x: 473.545, y: 819.019, id: 'tanciciDum' }, //
-  { x: 231.545, y: 146.019, id: 'chramSvVita' }, //
-  { x: 223.545, y: 307.019, id: 'chramSvMikulase' }, //
-  { x: 27.5447, y: 461.019, id: 'petrin' }, //
-  { x: 414.545, y: 359.019, id: 'karluvMost' }, //
+  { x: 651.545, y: 322.019, id: 'orloj' },
+  { x: 506.545, y: 224.019, id: 'rudolfinum' },
+  { x: 488.545, y: 586.019, id: 'narodniDivadlo' },
+  { x: 473.545, y: 819.019, id: 'tanciciDum' },
+  { x: 231.545, y: 146.019, id: 'chramSvVita' },
+  { x: 223.545, y: 307.019, id: 'chramSvMikulase' },
+  { x: 27.5447, y: 461.019, id: 'petrin' },
+  { x: 414.545, y: 359.019, id: 'karluvMost' },
   { x: 867.545, y: 606.019, id: 'narodniMuzeum' },
   { x: 829.545, y: 295.019, id: 'obecniDum' },
 ];
 
-// x: 506.545, y: 224.019,
 export const GamePage = () => {
   // konstanty
   const [activeId, setActiveId] = useState(null);
@@ -85,9 +85,9 @@ export const GamePage = () => {
         onDragEnd={handleDragEnd}
       >
         <div className="left-column">
+          {/* <WinnerBox /> */}
           {isModalOpen && <ModalBox onIsModalOpen={handleModal} />}
 
-          {/* <img className="left-column--map" src="map.png"></img> */}
           <Map>
             {dropBoxData
               .filter((dropBox) => dropBox.x && dropBox.y)
@@ -121,11 +121,15 @@ export const GamePage = () => {
           <div className="monuments-box">
             <div className="monuments-box--list">
               {monuments.map((monument) => (
-                <Monument key={monument.id} id={monument.id}></Monument>
+                <Monument
+                  overlay={false}
+                  key={monument.id}
+                  id={monument.id}
+                ></Monument>
               ))}
             </div>
             <DragOverlay>
-              {activeId ? <Monument id={activeId} /> : null}
+              {activeId ? <Monument overlay={true} id={activeId} /> : null}
             </DragOverlay>
           </div>
         </div>

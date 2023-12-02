@@ -11,7 +11,25 @@ export const ModalBox = ({ onIsModalOpen }) => {
       ></div>
       <div className="modal-box">
         <div className="modal-box--top">
-          <h1 className="top--heading">Jsi mistr pražských památek!</h1>
+          <h1 className="top--heading">Jak hrát?</h1>
+          <svg
+            onClick={() => {
+              onIsModalOpen(false);
+            }}
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            strokeWidth={1.5}
+            stroke="currentColor"
+            width="45"
+            className="top-cross"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M6 18L18 6M6 6l12 12"
+            />
+          </svg>
         </div>
         <div className="modal-box-about--container">
           <div className="modal-box--text">
