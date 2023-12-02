@@ -50,6 +50,13 @@ margin-left: 220px;
 font-size: 22px;
 font-weight: bold;
 margin-bottom: 60px;
+font-family: 'STIX Two Text', 'Open Sans', sans-serif;
+}
+
+.menu__link:hover {
+    color:#485E9B;
+    text-decoration: underline;
+
 }
 
 .monument__name {
@@ -60,7 +67,7 @@ ul {
     text-decoration: none;
 }
 
-li {
+.monument__id {
     color: #CB6F03;
     list-style: none;
   }

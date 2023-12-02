@@ -12,7 +12,7 @@ export const MonumentListPage = () => {
         <div className="list__left--col">
           <ul className="monuments-pages"></ul>
           {monuments.map((monument) => (
-            <li key={monument.id}>
+            <li className="monument__id"key={monument.id}>
               <Link className="menu__link" to={`/monument-list/${monument.id}`}>{monument.name}</Link>
             </li>
           ))}
