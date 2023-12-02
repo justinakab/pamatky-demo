@@ -12,8 +12,15 @@
 }
 
 .list__left--col {
-    width: 50%;
+    width: 100%;
+    padding: 0px 0px 0px 70px;
 }
+
+/* @media (min-width:900px) {
+    .list__left--col{
+        padding: 0px 0px 0px 50px;
+    }
+} */
 
 .list__right--col {
     width: 50%;
@@ -36,6 +43,12 @@
     aspect-ratio: 3744 / 5616;
 }
 
+@media (min-width: 900px) {
+    .orloj--img {
+        height: 950px;
+    } 
+}
+
 .menu__link {
 color: #CB6F03;
 display: flex;
@@ -46,7 +59,7 @@ justify-content: flex-start;
 align-items: flex-start;
 gap: 22px;
 margin-top: 60px;
-margin-left: 220px;
+/* margin-left: 220px; */
 font-size: 22px;
 font-weight: bold;
 margin-bottom: 60px;
@@ -71,7 +84,7 @@ ul {
     color: #CB6F03;
     list-style: none;
   }
-  
+
 
 @media (max-width:900px) {
 

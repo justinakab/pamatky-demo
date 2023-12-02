@@ -41,6 +41,8 @@ header {
 .hero--left-col {
   display: flex;
   flex-direction: column;
+  background-image: url(./img/mapa.svg);
+  background-repeat: no-repeat;
 }
 
 
@@ -60,7 +62,7 @@ header {
 main {
   display: flex;
   flex-direction: column;
-  padding: 20px 20px 0 20px;
+  /* padding: 20px 20px 0 20px; */
 }
 
 
@@ -68,7 +70,7 @@ h1 {
   color: #A75A00;
   font-family: "STIX two text", sans-serif, 'Times New Roman', Times, serif;
   font-size: 46px;
-  margin: 12px;
+  /* margin: 12px; */
   /* font-weight: 20px; */
 }
 

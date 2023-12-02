@@ -21,7 +21,7 @@ export const Menu = () => {
         <nav className="hamburger-nav">
           <ul>
             <li>
-              <Link to="/monuments">památky</Link>
+              <Link to="/monument-list">památky</Link>
             </li>
             <li>
               <Link to="/game">hry & testy</Link>

@@ -7,6 +7,7 @@ import { GamePage } from './pages/GamePage';
 import { MonumentListPage } from './pages/MonumentListPage';
 import { MonumentPage } from './pages/MonumentPage';
 import { ErrorPage } from './pages/ErrorPage';
+import { AboutProject } from './pages/AboutProject';
 
 const router = createBrowserRouter([
   {
@@ -15,12 +16,14 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
     children: [
       { path: '', element: <HomePage></HomePage> },
+      { path: '/aboutproject', element: <AboutProject></AboutProject> },
       { path: 'game', element: <GamePage></GamePage> },
       { path: 'monument-list', element: <MonumentListPage></MonumentListPage> },
       {
         path: 'monument-list/:idMonument',
         element: <MonumentPage></MonumentPage>,
       },
+
     ],
   },
 ]);

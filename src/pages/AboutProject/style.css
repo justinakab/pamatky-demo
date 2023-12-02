@@ -1,0 +1,48 @@
+.about {
+    display: flex;
+    padding-right: 50px;
+    justify-content: space-around;
+    padding: 25px;
+  
+  }
+  
+  /* .about--text {
+    width: 50%;
+    text-align: left;
+    padding: 20px 50px;
+  } */
+  
+  .about--img {
+    width: 40%;
+    background-image: url(./img/ukazka.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  
+  
+  }
+  
+  .highlight {
+    color: #BB3C1C;
+  }
+  
+  @media (max-width: 992px) {
+    .about-h1 {
+      padding-top: 20px;
+      margin-bottom: 0;
+    }
+  
+    .about {
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+      padding: 25px;
+    }
+  
+    .about--text {
+      width: 100%;
+      
+  
+    }
+  
+  }
+  
