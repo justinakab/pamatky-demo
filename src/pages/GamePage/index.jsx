@@ -5,6 +5,7 @@ import { useState } from 'react';
 import { Monument } from '../../components/Monument';
 import { monuments } from '../../../lib/data';
 import { Map } from './map';
+import { MessageBox } from '../../components/MessageBox';
 
 const dropBoxData = [
   { position: 'orloj-position', id: 'orloj' },
@@ -58,6 +59,8 @@ export const GamePage = () => {
         onDragEnd={handleDragEnd}
       >
         <div className="left-column">
+          <MessageBox></MessageBox>
+
           {/* <img className="left-column--map" src="map.png"></img> */}
           <Map></Map>
           {dropBoxData.map((dropBox) => (
@@ -71,8 +74,8 @@ export const GamePage = () => {
         </div>
         <div className="right-column">
           <div className="top-menu">
-            <button className="btn">Jak hrát?</button>
-            <button className="btn">Domů</button>
+            <button className="btn btn-menu">Jak hrát?</button>
+            <button className="btn btn-menu">Domů</button>
           </div>
 
           <div className="message-box">
