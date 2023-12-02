@@ -9,6 +9,7 @@ import { ModalBox } from '../../components/ModalBox';
 import { MessageBox } from '../../components/MessageBox';
 import { Link } from 'react-router-dom';
 import { WinnerBox } from '../../components/WinnerBox';
+import { useEffect } from 'react';
 
 const dropBoxData = [
   { x: 651.545, y: 322.019, id: 'orloj' },
@@ -27,6 +28,8 @@ export const GamePage = () => {
   // konstanty
   const [activeId, setActiveId] = useState(null);
 
+  const [colorClass, setColorClass] = useState('color-answer-neutral');
+
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const [isWinnerBoxOpen, setIsWinnerBoxOpen] = useState(false);
@@ -38,7 +41,29 @@ export const GamePage = () => {
     rudolfinum: false,
     narodniDivadlo: false,
     tanciciDum: false,
+    chramSvVita: false,
+    chramSvMikulase: false,
+    petrin: false,
+    karluvMost: false,
+    narodniMuzeum: false,
+    obecniDum: false,
   });
+
+  const checkAllSolved = () => {
+    return Object.values(isSolved).every((solved) => solved);
+  };
+
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      if (checkAllSolved()) {
+        setIsWinnerBoxOpen(true);
+      }
+    }, 500);
+
+    return () => {
+      clearTimeout(timeout);
+    };
+  }, [isSolved]);
 
   const handleDragStart = (event) => {
     console.log('Drag start called', event);
@@ -58,8 +83,10 @@ export const GamePage = () => {
 
       setIsSolved(newIsSolved);
       setMessage('Správně!');
+      setColorClass('color-answer-right');
     } else if (active.id !== over.id) {
       setMessage('Zkus to ještě jednou!');
+      setColorClass('color-answer-neutral');
     }
 
     setActiveId(null);
@@ -85,7 +112,7 @@ export const GamePage = () => {
         onDragEnd={handleDragEnd}
       >
         <div className="left-column">
-          {/* <WinnerBox /> */}
+          {isWinnerBoxOpen && <WinnerBox />}
           {isModalOpen && <ModalBox onIsModalOpen={handleModal} />}
 
           <Map>
@@ -115,18 +142,20 @@ export const GamePage = () => {
             </Link>
           </div>
 
-          <div className="message-box">
+          <div className={`${colorClass} message-box`}>
             <MessageBox message={message}></MessageBox>
           </div>
           <div className="monuments-box">
             <div className="monuments-box--list">
-              {monuments.map((monument) => (
-                <Monument
-                  overlay={false}
-                  key={monument.id}
-                  id={monument.id}
-                ></Monument>
-              ))}
+              {monuments
+                .filter((monument) => !isSolved[monument.id])
+                .map((monument) => (
+                  <Monument
+                    overlay={false}
+                    key={monument.id}
+                    id={monument.id}
+                  ></Monument>
+                ))}
             </div>
             <DragOverlay>
               {activeId ? <Monument overlay={true} id={activeId} /> : null}

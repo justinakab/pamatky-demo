@@ -15,8 +15,8 @@ export const DropBox = ({ id, x, y, isSolved }) => {
       {isSolved[id] ? (
         <use
           href={`#${id}`}
-          x={x - 77}
-          y={y - 77}
+          x={x - 50}
+          y={y - 50}
           ref={setNodeRef}
           style={style}
           width={100}

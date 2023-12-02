@@ -1,0 +1,12 @@
+.error-page {
+  background-color: #f3efe9;
+  border: 1px solid #c77b41;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.error-heading {
+  color: #c77b41;
+}

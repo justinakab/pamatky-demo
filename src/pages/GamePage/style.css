@@ -75,7 +75,6 @@
   width: 90%;
   height: 100%;
   display: flex;
-  justify-content: space-between;
   align-items: center;
   flex-direction: column;
   overflow-y: auto;
@@ -107,6 +106,14 @@
 .top-menu .btn:hover {
   background-color: #475e9b;
   color: #fff9ea;
+}
+
+.color-answer-neutral {
+  background-color: #c77b41;
+}
+
+.color-answer-right {
+  background-color: #92B174;
 }
 
 
