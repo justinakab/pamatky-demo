@@ -1,7 +1,8 @@
-import { useParams } from 'react-router-dom';
-import { monuments } from '../../../lib/data';
-import { Header } from '../../components/Header';
-import { Footer } from '../../components/Footer';
+import "./style.css";
+import { useParams } from "react-router-dom";
+import { monuments } from "../../../lib/data";
+import { Header } from "../../components/Header";
+import { Footer } from "../../components/Footer";
 
 export const MonumentPage = () => {
   const { idMonument } = useParams();
@@ -9,10 +10,23 @@ export const MonumentPage = () => {
 
   return (
     <>
-    <Header></Header>
-      <h1 className='monument__header'>{monumentData.name}</h1>
-      <img src={monumentData.image}></img>
-      <p className='monument__description'>{monumentData.description}</p>
+      <Header></Header>
+      <div className="monument__container">
+        <h1 className="monument__header">{monumentData.name}</h1>
+
+        <img
+          className="monument__foto"
+          src={monumentData.photos}
+          alt="fotografie"
+        ></img>
+
+        <p className="monument__description">{monumentData.description}</p>
+        <img
+          className="monument__vector"
+          src={monumentData.vectors}
+          alt="památka ve vectorové grafice"
+        ></img>
+      </div>
 
       <Footer></Footer>
     </>
