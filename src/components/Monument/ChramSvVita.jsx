@@ -1,12 +1,6 @@
 export const ChramSvVita = () => {
   return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      width="154"
-      height="154"
-      viewBox="0 0 154 154"
-      fill="none"
-    >
+    <>
       <path
         d="M77 153C118.974 153 153 118.974 153 77C153 35.0264 118.974 1 77 1C35.0264 1 1 35.0264 1 77C1 118.974 35.0264 153 77 153Z"
         fill="#F3EFE9"
@@ -595,6 +589,6 @@ export const ChramSvVita = () => {
         strokeLinecap="round"
         strokeLinejoin="round"
       />
-    </svg>
+    </>
   );
 };

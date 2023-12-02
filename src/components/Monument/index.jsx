@@ -26,19 +26,28 @@ const monumentSvgs = {
 };
 
 export const Monument = (props) => {
-  const { attributes, listeners, setNodeRef, transform } = useDraggable({
-    id: props.id,
-  });
+  const { attributes, listeners, setNodeRef, isDragging, transform } =
+    useDraggable({
+      id: props.id,
+    });
 
   const style = {
     transform: CSS.Translate.toString(transform),
+    /*width: isDragging ? '100px' : '154px',*/
   };
-  // width: isDragging ? '100px' : '154px',
   const MonumentSvg = monumentSvgs[props.id];
 
   return (
     <div ref={setNodeRef} style={style} {...listeners} {...attributes}>
-      <MonumentSvg></MonumentSvg>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="156"
+        height="156"
+        viewBox="0 0 156 156"
+        fill="none"
+      >
+        <MonumentSvg />
+      </svg>
     </div>
   );
 };

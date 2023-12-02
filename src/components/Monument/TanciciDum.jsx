@@ -1,12 +1,6 @@
 export const TanciciDum = () => {
   return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      width="153"
-      height="153"
-      viewBox="0 0 153 153"
-      fill="none"
-    >
+    <>
       <path
         d="M76.4728 151.946C118.155 151.946 151.946 118.155 151.946 76.4728C151.946 34.7903 118.155 1 76.4728 1C34.7903 1 1 34.7903 1 76.4728C1 118.155 34.7903 151.946 76.4728 151.946Z"
         fill="#F3EFE9"
@@ -765,6 +759,6 @@ export const TanciciDum = () => {
         stroke="#CB6F03"
         strokeMiterlimit="10"
       />
-    </svg>
+    </>
   );
 };

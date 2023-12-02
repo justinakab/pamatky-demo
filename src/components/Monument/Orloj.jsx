@@ -1,12 +1,6 @@
 export const Orloj = () => {
   return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      width="154"
-      height="156"
-      viewBox="0 0 154 156"
-      fill="none"
-    >
+    <>
       <path
         d="M77 154.096C118.974 154.096 153 119.872 153 77.6558C153 35.4392 118.974 1.21582 77 1.21582C35.0264 1.21582 1 35.4392 1 77.6558C1 119.872 35.0264 154.096 77 154.096Z"
         fill="#F3EFE9"
@@ -467,6 +461,6 @@ export const Orloj = () => {
         stroke="#CB6F03"
         strokeMiterlimit="10"
       />
-    </svg>
+    </>
   );
 };

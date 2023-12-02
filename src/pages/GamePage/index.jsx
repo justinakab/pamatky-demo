@@ -7,25 +7,29 @@ import { monuments } from '../../../lib/data';
 import { Map } from './map';
 import { ModalBox } from '../../components/ModalBox';
 import { MessageBox } from '../../components/MessageBox';
+import { Link } from 'react-router-dom';
 
 const dropBoxData = [
-  { position: 'orloj-position', id: 'orloj' },
-  { position: 'rudolfinum-position', id: 'rudolfinum' },
-  { position: 'narodni-divadlo-position', id: 'narodniDivadlo' },
-  { position: 'tancici-dum-position', id: 'tanciciDum' },
-  { position: 'tancici-dum-position', id: 'chramSvVita' },
-  { position: 'tancici-dum-position', id: 'chramSvMikulase' },
-  { position: 'tancici-dum-position', id: 'petrin' },
-  { position: 'tancici-dum-position', id: 'karluvMost' },
-  { position: 'tancici-dum-position', id: 'narodniMuzeum' },
-  { position: 'tancici-dum-position', id: 'obecniDum' },
+  { x: 651.545, y: 322.019, id: 'orloj' }, //
+  { x: 506.545, y: 224.019, id: 'rudolfinum' }, //
+  { x: 488.545, y: 586.019, id: 'narodniDivadlo' }, //
+  { x: 473.545, y: 819.019, id: 'tanciciDum' }, //
+  { x: 231.545, y: 146.019, id: 'chramSvVita' }, //
+  { x: 223.545, y: 307.019, id: 'chramSvMikulase' }, //
+  { x: 27.5447, y: 461.019, id: 'petrin' }, //
+  { x: 414.545, y: 359.019, id: 'karluvMost' }, //
+  { x: 867.545, y: 606.019, id: 'narodniMuzeum' },
+  { x: 829.545, y: 295.019, id: 'obecniDum' },
 ];
 
+// x: 506.545, y: 224.019,
 export const GamePage = () => {
   // konstanty
   const [activeId, setActiveId] = useState(null);
 
   const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const [isWinnerBoxOpen, setIsWinnerBoxOpen] = useState(false);
 
   const [message, setMessage] = useState('Začni hrát!');
 
@@ -65,6 +69,14 @@ export const GamePage = () => {
     setIsModalOpen(!isModalOpen);
   };
 
+  const handleConfirm = (event) => {
+    const confirmed = window.confirm('Opravdu si přeješ opustit hru?');
+
+    if (!confirmed) {
+      event.preventDefault();
+    }
+  };
+
   return (
     <div className="container">
       <DndContext
@@ -76,25 +88,31 @@ export const GamePage = () => {
           {isModalOpen && <ModalBox onIsModalOpen={handleModal} />}
 
           {/* <img className="left-column--map" src="map.png"></img> */}
-          <Map></Map>
-          {dropBoxData.map((dropBox) => (
-            <DropBox
-              isSolved={isSolved}
-              boxClass={dropBox.position}
-              id={dropBox.id}
-              key={dropBox.id}
-            ></DropBox>
-          ))}
+          <Map>
+            {dropBoxData
+              .filter((dropBox) => dropBox.x && dropBox.y)
+              .map((dropBox) => (
+                <DropBox
+                  x={dropBox.x}
+                  y={dropBox.y}
+                  isSolved={isSolved}
+                  id={dropBox.id}
+                  key={dropBox.id}
+                ></DropBox>
+              ))}
+          </Map>
         </div>
         <div className="right-column">
           <div className="top-menu">
             <button onClick={handleModal} className="btn btn-menu">
               Jak hrát?
             </button>
-            {/* <Link to={'/'}>
+            <Link to="/">
               {' '}
-              <button className="btn btn-menu">Domů</button>
-            </Link> */}
+              <button onClick={handleConfirm} className="btn btn-menu">
+                Domů
+              </button>
+            </Link>
           </div>
 
           <div className="message-box">
