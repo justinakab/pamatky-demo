@@ -5,6 +5,7 @@ import { useState } from 'react';
 import { Monument } from '../../components/Monument';
 import { monuments } from '../../../lib/data';
 import { Map } from './map';
+import { ModalBox } from '../../components/ModalBox';
 import { MessageBox } from '../../components/MessageBox';
 
 const dropBoxData = [
@@ -22,6 +23,9 @@ const dropBoxData = [
 
 export const GamePage = () => {
   const [activeId, setActiveId] = useState(null);
+
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
   const [isSolved, setIsSolved] = useState({
     orloj: false,
     rudolfinum: false,
@@ -51,6 +55,10 @@ export const GamePage = () => {
     setActiveId(null);
   };
 
+  const handleModal = () => {
+    setIsModalOpen(!isModalOpen);
+  };
+
   return (
     <div className="container">
       <DndContext
@@ -59,27 +67,32 @@ export const GamePage = () => {
         onDragEnd={handleDragEnd}
       >
         <div className="left-column">
-          <MessageBox></MessageBox>
+          {isModalOpen && <ModalBox onIsModalOpen={handleModal} />}
 
           {/* <img className="left-column--map" src="map.png"></img> */}
           <Map></Map>
-          {dropBoxData.map((dropBox) => (
+          {/* {dropBoxData.map((dropBox) => (
             <DropBox
               isSolved={isSolved}
               boxClass={dropBox.position}
               id={dropBox.id}
               key={dropBox.id}
             ></DropBox>
-          ))}
+          ))} */}
         </div>
         <div className="right-column">
           <div className="top-menu">
-            <button className="btn btn-menu">Jak hrát?</button>
-            <button className="btn btn-menu">Domů</button>
+            <button onClick={handleModal} className="btn btn-menu">
+              Jak hrát?
+            </button>
+            {/* <Link to={'/'}>
+              {' '}
+              <button className="btn btn-menu">Domů</button>
+            </Link> */}
           </div>
 
           <div className="message-box">
-            <p className="message-box--text">Začni hrát!</p>
+            <MessageBox></MessageBox>
           </div>
           <div className="monuments-box">
             <div className="monuments-box--list">

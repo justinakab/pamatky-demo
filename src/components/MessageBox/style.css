@@ -1,37 +1,9 @@
-.modal-box {
-  position: fixed;
-  display: flex;
-  flex-direction: column;
-  background-color: #FFF9EA;
-  z-index: 2;
-  width: 800px;
-  height: 500px;
-  border: 2px solid #CB6F03;
-  border-radius: 30px;
-}
-
-.modal-box--top {
-  height: 30%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.top--heading {
-  color: #CB6F03;
-  font-size: 40px;
-  font-family: 'STIX Two Text', sans-serif;
-
-}
-
-
-.modal-box-about--container {
-  display: flex;
-  padding: 20px;
-}
-
-.modal-box--text {
-  width: 40%;
-  margin-right: 20px;
-  font-family: 'Poppins', sans-serif;
+.message-box--text {
+  color: #fff9ea;
+  text-align: center;
+  font-family: "STIX Two Text", serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
