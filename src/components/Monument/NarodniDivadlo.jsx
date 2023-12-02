@@ -1,13 +1,7 @@
 export const NarodniDivadlo = () => {
   return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      width="152"
-      height="153"
-      viewBox="0 0 152 153"
-      fill="none"
-    >
-      <g clipPath="url(#clip0_465_12812)">
+    <>
+      <g>
         <path
           d="M76.0027 152.352C117.685 152.352 151.475 118.367 151.475 76.4427C151.475 34.5189 117.685 0.532959 76.0027 0.532959C34.3202 0.532959 0.529861 34.5189 0.529861 76.4427C0.529861 118.367 34.3202 152.352 76.0027 152.352Z"
           fill="#F3EFE9"
@@ -847,11 +841,6 @@ export const NarodniDivadlo = () => {
           strokeMiterlimit="10"
         />
       </g>
-      <defs>
-        <clipPath id="clip0_465_12812">
-          <rect width="152" height="152.88" fill="white" />
-        </clipPath>
-      </defs>
-    </svg>
+    </>
   );
 };

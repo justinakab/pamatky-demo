@@ -1,12 +1,6 @@
 export const Rudolfinum = () => {
   return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      width="155"
-      height="155"
-      viewBox="0 0 155 155"
-      fill="none"
-    >
+    <>
       <path
         d="M77.5 154C119.75 154 154 119.75 154 77.5C154 35.2502 119.75 1 77.5 1C35.2502 1 1 35.2502 1 77.5C1 119.75 35.2502 154 77.5 154Z"
         fill="#F3EFE9"
@@ -1140,6 +1134,6 @@ export const Rudolfinum = () => {
         stroke="#C77B41"
         strokeMiterlimit="10"
       />
-    </svg>
+    </>
   );
 };
