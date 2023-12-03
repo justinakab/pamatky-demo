@@ -20,7 +20,7 @@ export const MonumentPage = () => {
           alt="fotografie"
         ></img>
 
-        <p className="monument__description">{monumentData.description}</p>
+        <p dangerouslySetInnerHTML={{__html:monumentData.description}} className="monument__description"></p>
         <img
           className="monument__vector"
           src={monumentData.vectors}

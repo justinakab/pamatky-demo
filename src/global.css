@@ -20,3 +20,7 @@ html {
   padding: 0;
 }
 
+strong {
+  font-weight: bold;
+  color: #CB6F03;
+}
