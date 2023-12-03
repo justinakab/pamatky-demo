@@ -10,24 +10,19 @@
   
   }
 
-  .about--text {
-    width: 90%;
-    
+  .about--left {
+    width: 100%;
+  }
 
+  .about--right {
+    width: 100%;
+  }
+
+  .about--text {
+    width: 100%;
+    margin-top: 25px;
   }
   
-  .about--text {
-    width: 90%;
-  } 
-
-   /* .about--img {
-    width: 40%;
-    background-image: url(./img/ukazka.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-  
-  
-  } */
   
   .highlight {
     color: #BB3C1C;
@@ -48,27 +43,22 @@
     background-repeat: no-repeat;
     border-radius: 30px;
     margin-bottom: 30px;
-    margin-left: auto;
-  }
+    margin: auto;
   
-  @media (max-width: 992px) {
+  }
+ 
+  @media (min-width: 800px) {
     .about-h1 {
-      padding-top: 20px;
       margin-bottom: 0;
     }
   
     .about {
-      flex-direction: column;
-      text-align: center;
-      justify-content: center;
-      padding: 25px;
+      flex-direction: row;
+      text-align: left;
+      margin-left: 45px;
+   
     }
   
   
   
   }
-
-  @media (min-width:950px){
-    
-  }
-  
