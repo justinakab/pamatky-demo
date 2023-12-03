@@ -15,7 +15,7 @@
   flex-direction: column;
   background-color: #FFF9EA;
   z-index: 2;
-  width: 60%;
+  width: 80%;
   height: 80%;
   border: 2px solid #CB6F03;
   border-radius: 30px;
@@ -49,12 +49,12 @@
 
 .modal-box-about--container {
   display: flex;
+  flex-direction: column;
   padding: 20px;
 }
 
 .modal-box--text {
-  width: 50%;
-  margin-right: 20px;
+  width: 100%;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -68,7 +68,8 @@
 }
 
 .modal-box-gif {
-  width: 50%;
+  margin-top: 20px;
+  width: 100%;
 }
 
 .gif {
@@ -81,6 +82,15 @@
 /* media queries */
 
 @media (min-width: 992px) {
+  .modal-box {
+    width: 60%;
+
+  }
+
+  .top--heading {
+    margin-top: 20px;
+  }
+
   .top-cross {
     position: absolute;
     top: 30px;
@@ -95,5 +105,16 @@
     text-align: center;
   }
 
+  .modal-box-about--container {
+    flex-direction: row;
+  }
 
+  .modal-box-gif {
+    width: 50%;
+  }
+
+  .modal-box--text {
+    width: 50%;
+    margin-right: 20px;
+  }
 }
