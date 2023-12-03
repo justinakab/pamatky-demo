@@ -11,6 +11,8 @@ import { Link } from 'react-router-dom';
 import { WinnerBox } from '../../components/WinnerBox';
 import { useEffect } from 'react';
 import { motion } from 'framer-motion';
+import { HomeIcon } from '../../components/HomeIcon';
+import { QuestionIcon } from '../../components/QuestionIcon';
 
 const dropBoxData = [
   { x: 651.545, y: 322.019, id: 'orloj' },
@@ -162,7 +164,14 @@ export const GamePage = () => {
             >
               Jak hrát?
             </motion.button>
+            <QuestionIcon
+              onClick={handleModal}
+              className="question-icon"
+            ></QuestionIcon>
+
             <Link to="/">
+              <HomeIcon className="home-icon"></HomeIcon>
+
               <motion.button
                 onClick={handleConfirm}
                 className="btn btn-menu"

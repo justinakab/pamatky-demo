@@ -48,6 +48,7 @@ export const Monument = (props) => {
   return (
     <div ref={setNodeRef} style={style} {...listeners} {...attributes}>
       <svg
+        className="monument-svg"
         xmlns="http://www.w3.org/2000/svg"
         width="156"
         height="156"
