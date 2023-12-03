@@ -6,6 +6,7 @@ header {
     text-align: left;
     border-radius: 0 0 20px 20px;
     align-items: center;
+    z-index: 1;
   }
   
   .container--hamburger-menu {
