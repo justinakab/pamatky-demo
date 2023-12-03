@@ -52,6 +52,7 @@ export const Map = ({ top, left, children }) => {
       style={style}
       {...attributes}
       {...listeners}
+      className="left-column--map"
     >
       <defs>
         {Object.entries(dropBoxSvgs).map(([id, Monument]) => (
