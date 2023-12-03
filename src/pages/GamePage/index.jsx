@@ -18,15 +18,15 @@ const dropBoxData = [
   { x: 651.545, y: 322.019, id: 'orloj' },
   { x: 506.545, y: 224.019, id: 'rudolfinum' },
   { x: 488.545, y: 586.019, id: 'narodniDivadlo' },
-  { x: 473.545, y: 819.019, id: 'tanciciDum' },
+  { x: 483.545, y: 730.019, id: 'tanciciDum' }, //
   { x: 231.545, y: 146.019, id: 'chramSvVita' },
   { x: 223.545, y: 307.019, id: 'chramSvMikulase' },
-  { x: 27.5447, y: 461.019, id: 'petrin' },
+  { x: 75.5447, y: 461.019, id: 'petrin' },
   { x: 414.545, y: 359.019, id: 'karluvMost' },
   { x: 867.545, y: 606.019, id: 'narodniMuzeum' },
   { x: 829.545, y: 295.019, id: 'obecniDum' },
 ];
-
+//x: 27.5447, y: 461.019,
 export const GamePage = () => {
   // konstanty
   const [activeId, setActiveId] = useState(null);
@@ -132,18 +132,16 @@ export const GamePage = () => {
           {isModalOpen && <ModalBox onIsModalOpen={handleModal} />}
           <div className="viewport">
             <Map top={y} left={x}>
-              {dropBoxData
-                .filter((dropBox) => dropBox.x && dropBox.y)
-                .map((dropBox) => (
-                  <DropBox
-                    x={dropBox.x}
-                    y={dropBox.y}
-                    isSolved={isSolved}
-                    id={dropBox.id}
-                    key={dropBox.id}
-                    disabled={activeId === 'map'}
-                  ></DropBox>
-                ))}
+              {dropBoxData.map((dropBox) => (
+                <DropBox
+                  x={dropBox.x}
+                  y={dropBox.y}
+                  isSolved={isSolved}
+                  id={dropBox.id}
+                  key={dropBox.id}
+                  disabled={activeId === 'map'}
+                ></DropBox>
+              ))}
             </Map>
           </div>
         </div>
