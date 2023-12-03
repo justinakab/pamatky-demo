@@ -1,12 +1,16 @@
-import "./style.css";
-import { useParams } from "react-router-dom";
-import { monuments } from "../../../lib/data";
-import { Header } from "../../components/Header";
-import { Footer } from "../../components/Footer";
+import './style.css';
+import { useParams } from 'react-router-dom';
+import { monuments } from '../../../lib/data';
+import { Header } from '../../components/Header';
+import { Footer } from '../../components/Footer';
+import { camelToKebabCase } from '../MonumentListPage';
 
 export const MonumentPage = () => {
   const { idMonument } = useParams();
-  const monumentData = monuments.find((monument) => monument.id === idMonument);
+
+  const monumentData = monuments.find(
+    (monument) => camelToKebabCase(monument.id) === idMonument,
+  );
 
   return (
     <>
