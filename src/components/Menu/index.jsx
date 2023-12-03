@@ -27,7 +27,7 @@ export const Menu = () => {
               <Link to="/game">hra</Link>
             </li>
             <li>
-              <Link to="/aboutproject">O projektu</Link>
+              <Link to="/aboutproject">o projektu</Link>
             </li>
           </ul>
         </nav>

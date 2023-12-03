@@ -37,6 +37,8 @@ export const GamePage = () => {
 
   const [message, setMessage] = useState('Začni hrát!');
 
+  const [{ x, y }, setCoordinates] = useState({ x: 0, y: 0 });
+
   const [isSolved, setIsSolved] = useState({
     orloj: false,
     rudolfinum: false,
@@ -74,7 +76,18 @@ export const GamePage = () => {
 
   const handleDragEnd = (event) => {
     console.log('Drag end called');
-    const { active, over } = event;
+    const { active, over, delta } = event;
+
+    if (active.id === 'map') {
+      console.log('handle');
+      setCoordinates(({ x, y }) => {
+        return {
+          x: x + delta.x,
+          y: y + delta.y,
+        };
+      });
+      return;
+    }
 
     console.log('ACTIVE :' + active.id);
     console.log('OVER :' + over.id);
@@ -115,20 +128,22 @@ export const GamePage = () => {
         <div className="left-column">
           {isWinnerBoxOpen && <WinnerBox />}
           {isModalOpen && <ModalBox onIsModalOpen={handleModal} />}
-
-          <Map>
-            {dropBoxData
-              .filter((dropBox) => dropBox.x && dropBox.y)
-              .map((dropBox) => (
-                <DropBox
-                  x={dropBox.x}
-                  y={dropBox.y}
-                  isSolved={isSolved}
-                  id={dropBox.id}
-                  key={dropBox.id}
-                ></DropBox>
-              ))}
-          </Map>
+          <div className="viewport">
+            <Map top={y} left={x}>
+              {dropBoxData
+                .filter((dropBox) => dropBox.x && dropBox.y)
+                .map((dropBox) => (
+                  <DropBox
+                    x={dropBox.x}
+                    y={dropBox.y}
+                    isSolved={isSolved}
+                    id={dropBox.id}
+                    key={dropBox.id}
+                    disabled={activeId === 'map'}
+                  ></DropBox>
+                ))}
+            </Map>
+          </div>
         </div>
         <div className="right-column">
           <div className="top-menu">
@@ -181,9 +196,11 @@ export const GamePage = () => {
                   ></Monument>
                 ))}
             </div>
-            <DragOverlay>
-              {activeId ? <Monument overlay={true} id={activeId} /> : null}
-            </DragOverlay>
+            {activeId !== 'map' && (
+              <DragOverlay>
+                {activeId && <Monument overlay={true} id={activeId} />}
+              </DragOverlay>
+            )}
           </div>
         </div>
       </DndContext>

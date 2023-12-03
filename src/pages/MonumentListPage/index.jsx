@@ -10,20 +10,26 @@ export const MonumentListPage = () => {
       <Header></Header>
       <div className="list">
         <div className="list__left--col">
-          <ul className="monuments-pages"></ul>
-          {monuments.map((monument) => (
-            <li className="monument__id" key={monument.id}>
-              <Link className="menu__link" to={`/monuments/${monument.id}`}>
-                {monument.name}
-              </Link>
-            </li>
-          ))}
+          <ul className="monuments-pages">
+            {monuments.map((monument) => (
+              <li className="monument__id" key={monument.id}>
+                <Link
+                  className="menu__link"
+                  to={`/monuments/${camelToKebabCase(monument.id)}`}
+                >
+                  {monument.name}
+                </Link>
+              </li>
+            ))}
+          </ul>
         </div>
-        <div className="list__right--col">
-          <div className="orloj--img"></div>
-        </div>
+        <div className="list__right--col"></div>
       </div>
       <Footer></Footer>
     </>
   );
 };
+
+export function camelToKebabCase(string) {
+  return string.replace(/([a-z])([A-Z])/g, '$1-$2').toLowerCase();
+}

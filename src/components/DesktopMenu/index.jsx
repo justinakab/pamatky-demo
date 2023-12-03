@@ -13,7 +13,7 @@ export const DesktopMenu = () => {
             <Link to="/game">hra</Link>
           </li>
           <li>
-            <Link to="/AboutProject">O projektu</Link>
+            <Link to="/AboutProject">o projektu</Link>
           </li>
         </ul>
       </nav>
