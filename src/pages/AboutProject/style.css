@@ -3,26 +3,52 @@
     padding-right: 50px;
     justify-content: space-around;
     padding: 25px;
+    flex-direction: column;
+    gap: 31px;
+    align-items: center;
+    font-size: 100%;
   
   }
+
+  .about--text {
+    width: 90%;
+    
+
+  }
   
-  /* .about--text {
-    width: 50%;
-    text-align: left;
-    padding: 20px 50px;
-  } */
-  
-  .about--img {
+  .about--text {
+    width: 90%;
+  } 
+
+   /* .about--img {
     width: 40%;
     background-image: url(./img/ukazka.png);
     background-repeat: no-repeat;
     background-size: contain;
   
   
-  }
+  } */
   
   .highlight {
     color: #BB3C1C;
+  }
+
+  .image--orloj {
+    background-image: url(./img/orloj.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 40%;
+    padding: 20px;
+    width: 80%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
   }
   
   @media (max-width: 992px) {
@@ -38,11 +64,11 @@
       padding: 25px;
     }
   
-    .about--text {
-      width: 100%;
-      
   
-    }
   
+  }
+
+  @media (min-width:950px){
+    
   }
   

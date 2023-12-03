@@ -7,8 +7,9 @@ export const AboutProject = () => {
   return (
     <>
       <Header></Header>
-      <h1 className="about-h1">O projektu</h1>
+      
       <div className="about">
+      <h1 className="about-h1">O projektu</h1>
         <div className="about--text">
           <p>
             V našem závěrečném projektu jsme si dali za cíl vytvořit{' '}
@@ -33,8 +34,9 @@ export const AboutProject = () => {
             </span>{' '}
             Například, plánujeme implementovat prvky mimo standardní rámec
             Digitální akademie, např. funkci drag&drop.
-          </p>
+          </p><br></br>
           <h3>Mentoři: Filip Jirsák a Nela Letochová</h3>
+          <div className='image--orloj'></div>
         </div>
       </div>
       <Footer></Footer>

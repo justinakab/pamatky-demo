@@ -10,14 +10,14 @@ export const HomePage = () => {
     <>
       <Header></Header>
 
-      <div className="hero--left-col">
+      <div className="hero--col">
         <Link to="/">
           <div className="logo"></div>
         </Link>
         <h1>Interaktivně za památkami</h1>
         <div className="about">
           <div className="about--text">
-            <p>
+            <p className='about--description'>
               <span className="highlight">
                 Interaktivní hra drag and drop a průvodce pražskými památkami.{' '}
                 <br />

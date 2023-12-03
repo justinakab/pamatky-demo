@@ -12,6 +12,9 @@
 .list__left--col {
     width: 100%;
     padding: 0px 0px 0px 70px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
 }
 
 .list__right--col {
@@ -21,7 +24,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(./img/karluv-most.avif);
+    background-image: url(./img/karluv-most.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
