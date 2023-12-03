@@ -1,9 +1,10 @@
 import './style.css';
 import { useDroppable } from '@dnd-kit/core';
 
-export const DropBox = ({ id, x, y, isSolved }) => {
+export const DropBox = ({ id, x, y, isSolved, disabled }) => {
   const { setNodeRef, isOver } = useDroppable({
     id,
+    disabled,
   });
 
   const style = {

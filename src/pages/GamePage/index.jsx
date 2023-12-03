@@ -139,6 +139,7 @@ export const GamePage = () => {
                     isSolved={isSolved}
                     id={dropBox.id}
                     key={dropBox.id}
+                    disabled={activeId === 'map'}
                   ></DropBox>
                 ))}
             </Map>
@@ -195,11 +196,11 @@ export const GamePage = () => {
                   ></Monument>
                 ))}
             </div>
-            <DragOverlay>
-              {activeId !== null && activeId !== 'map' ? (
-                <Monument overlay={true} id={activeId} />
-              ) : null}
-            </DragOverlay>
+            {activeId !== 'map' && (
+              <DragOverlay>
+                {activeId && <Monument overlay={true} id={activeId} />}
+              </DragOverlay>
+            )}
           </div>
         </div>
       </DndContext>

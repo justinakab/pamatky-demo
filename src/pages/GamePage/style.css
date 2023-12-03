@@ -7,7 +7,7 @@
 
 .left-column {
   /* border: 1px solid red; */
-  background-color: #f3efe9;
+  background-color: #fff9ea;
   position: relative;
   width: 80%;
   position: relative;
@@ -78,6 +78,7 @@
   align-items: center;
   flex-direction: column;
   overflow-y: auto;
+  padding: 10px;
 }
 
 .btn {
