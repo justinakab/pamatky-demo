@@ -67,6 +67,17 @@
   font-weight: bold;
 }
 
+.modal-box-gif {
+  width: 50%;
+}
+
+.gif {
+  width: 100%;
+
+}
+
+
+
 /* media queries */
 
 @media (min-width: 992px) {

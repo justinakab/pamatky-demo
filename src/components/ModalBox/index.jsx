@@ -51,7 +51,9 @@ export const ModalBox = ({ onIsModalOpen }) => {
               <span className="highlight--bigger">Užij si to!</span>
             </p>
           </div>
-          <div className="modal-box-gif"></div>
+          <div className="modal-box-gif">
+            <img className="gif" src="aboutgame.gif" alt="" />
+          </div>
         </div>
       </div>
     </>
