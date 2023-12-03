@@ -27,7 +27,7 @@ export const HomePage = () => {
             </p>
             {/* tlačítka */}
             <div className="btns-container">
-              <Link to="/monument-list">
+              <Link to="/monuments">
                 <motion.button
                   className="button bth--monuments"
                   whileHover={{

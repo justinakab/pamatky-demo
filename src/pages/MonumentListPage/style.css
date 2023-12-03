@@ -1,14 +1,13 @@
-
 .list {
     display: flex;
-    
+
     width: 100vw;
     flex-direction: row;
     flex-wrap: nowrap;
     align-content: stretch;
     justify-content: space-between;
     align-items: center;
-    
+
 }
 
 .list__left--col {
@@ -23,51 +22,52 @@
 } */
 
 .list__right--col {
-    width: 50%;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
-.container__monumentslink{
+.container__monumentslink {
     display: flex;
     flex-direction: column;
 }
 
 .orloj--img {
     background-image: url(./img/orloj.jpg);
-    height: 100vh;
+    width: 70vw;
     background-position: center;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     border-radius: 20px;
     aspect-ratio: 3744 / 5616;
+    margin-bottom: 20px;
 }
 
 @media (min-width: 900px) {
     .orloj--img {
         height: 950px;
-    } 
+    }
 }
 
 .menu__link {
-color: #CB6F03;
-display: flex;
-flex-direction: column;
-flex-wrap: nowrap;
-align-content: stretch;
-justify-content: flex-start;
-align-items: flex-start;
-gap: 22px;
-margin-top: 60px;
-/* margin-left: 220px; */
-font-size: 22px;
-font-weight: bold;
-margin-bottom: 60px;
-font-family: 'STIX Two Text', 'Open Sans', sans-serif;
+    color: #CB6F03;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 22px;
+    margin-top: 60px;
+    /* margin-left: 220px; */
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 60px;
+    font-family: 'STIX Two Text', 'Open Sans', sans-serif;
 }
 
 .menu__link:hover {
-    color:#485E9B;
+    color: #485E9B;
     text-decoration: underline;
 
 }
@@ -83,13 +83,13 @@ ul {
 .monument__id {
     color: #CB6F03;
     list-style: none;
-  }
+}
 
 
 @media (max-width:900px) {
 
-.list {
-flex-direction: column;
+    .list {
+        flex-direction: column;
 
-}
+    }
 }
