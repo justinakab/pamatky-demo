@@ -20,7 +20,7 @@ body {
   justify-content: space-between;
   text-align: center;
   font-family: 'Poppins', sans-serif;
-  height: auto;
+  /* height: auto; */
 }
 
 /* header */
@@ -39,13 +39,12 @@ header {
 }
 
 .hero--col {
-  height: 100vh;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
   background: linear-gradient(to bottom, rgba(255, 255, 253, 0.772), rgba(255, 255, 253, 0.772)), url(./img/mapa.svg) center/cover no-repeat;
   z-index: 0;
+  margin: -25px 0;
 }
 
 
@@ -62,6 +61,7 @@ header {
 
 .about--description {
   padding-bottom: 26px;
+  text-align: center;
 }
 
 /* main */
@@ -130,44 +130,32 @@ h1 {
 
 }
 
+.homepage-about {
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+
 
 /* media queries */
 
-/* @media (min-width: 326px) and (max-width: 576px) {
-  .logo {
-    margin: 20px;
-    background-image: url(./img/logo_prague.png);
-    height: 191px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-
-
-  }
-} */
-
 /* tablets */
-@media (min-width: 576px) and (max-width: 768px) {
+@media (min-width: 576px) {
   .btns-container {
     flex-direction: row;
   }
 
-  .hero--left-col {
-    height: 100vh;
-  }
-
 }
 
+/* 
 @media (min-width: 820px) and (max-width: 900px) {
 
   .hero--left-col {
     padding: 48px;
-    /* margin-left: 30px; */
     height: 100vh;
   }
 }
 
-/* laptops */
 @media (min-width: 900px) and (max-width: 992px) {
   main {
     min-height: 85vh;
@@ -181,10 +169,7 @@ h1 {
 
   }
 
-  /* .btns-container {
-    flex-direction: row;
-    justify-content: flex-start;
-  } */
+
 
   .btn {
     margin-right: 10px;
@@ -195,7 +180,6 @@ h1 {
 
 }
 
-/* desktops */
 @media (min-width: 992px) {
 
   main {
@@ -228,4 +212,4 @@ h1 {
     height: 10vh
   }
 
-}
+} */

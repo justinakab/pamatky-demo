@@ -1,4 +1,4 @@
-import { DndContext, closestCenter, DragOverlay } from '@dnd-kit/core';
+import { DndContext, DragOverlay } from '@dnd-kit/core';
 import { DropBox } from '../../components/DropBox';
 import './style.css';
 import { useState } from 'react';
@@ -14,6 +14,7 @@ import { motion } from 'framer-motion';
 import { HomeIcon } from '../../components/HomeIcon';
 import { QuestionIcon } from '../../components/QuestionIcon';
 import { closestCenterLimited } from '../../../lib/closetCenterLimited';
+import { restrictToParent } from '../../../lib/restrictToParent';
 
 const dropBoxData = [
   { x: 651.545, y: 322.019, id: 'orloj' },
@@ -197,6 +198,7 @@ export const GamePage = () => {
         collisionDetection={closestCenterLimited}
         onDragStart={handleDragStart}
         onDragEnd={handleDragEnd}
+        modifiers={[restrictToParent(x, y)]}
       >
         <div className="left-column">
           {isGameCompleted && (

@@ -15,9 +15,9 @@ export const HomePage = () => {
           <div className="logo"></div>
         </Link>
         <h1>Interaktivně za památkami</h1>
-        <div className="about">
+        <div className="homepage-about">
           <div className="about--text">
-            <p className='about--description'>
+            <p className="about--description">
               <span className="highlight">
                 Interaktivní hra drag and drop a průvodce pražskými památkami.{' '}
                 <br />
