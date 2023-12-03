@@ -1,8 +1,8 @@
 import './style.css';
 
-export const QuestionIcon = () => {
+export const QuestionIcon = ({ onClick }) => {
   return (
-    <div className="question-icon">
+    <div onClick={onClick} className="question-icon">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
