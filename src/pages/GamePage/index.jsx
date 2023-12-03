@@ -10,6 +10,7 @@ import { MessageBox } from '../../components/MessageBox';
 import { Link } from 'react-router-dom';
 import { WinnerBox } from '../../components/WinnerBox';
 import { useEffect } from 'react';
+import { motion } from 'framer-motion';
 
 const dropBoxData = [
   { x: 651.545, y: 322.019, id: 'orloj' },
@@ -131,14 +132,37 @@ export const GamePage = () => {
         </div>
         <div className="right-column">
           <div className="top-menu">
-            <button onClick={handleModal} className="btn btn-menu">
+            <motion.button
+              onClick={handleModal}
+              className="btn btn-menu"
+              whileHover={{
+                scale: 1.1,
+                transition: { duration: 0.6 },
+              }}
+              animate={{
+                scale: 1,
+                transition: { duration: 0.6 },
+              }}
+              whileTap={{ scale: 0.9 }}
+            >
               Jak hrát?
-            </button>
+            </motion.button>
             <Link to="/">
-              {' '}
-              <button onClick={handleConfirm} className="btn btn-menu">
+              <motion.button
+                onClick={handleConfirm}
+                className="btn btn-menu"
+                whileHover={{
+                  scale: 1.1,
+                  transition: { duration: 0.6 },
+                }}
+                animate={{
+                  scale: 1,
+                  transition: { duration: 0.6 },
+                }}
+                whileTap={{ scale: 0.9 }}
+              >
                 Domů
-              </button>
+              </motion.button>
             </Link>
           </div>
 
