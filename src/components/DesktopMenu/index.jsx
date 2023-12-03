@@ -7,12 +7,14 @@ export const DesktopMenu = () => {
       <nav>
         <ul>
           <li>
-            <Link to="/monument-list">památky</Link>
+            <Link to="/monuments">památky</Link>
           </li>
           <li>
-            <Link to="/game">hry & testy</Link>
+            <Link to="/game">hra</Link>
           </li>
-          <li><Link to="/AboutProject">O projektu</Link></li>
+          <li>
+            <Link to="/AboutProject">O projektu</Link>
+          </li>
         </ul>
       </nav>
     </div>

@@ -21,10 +21,10 @@ export const Menu = () => {
         <nav className="hamburger-nav">
           <ul>
             <li>
-              <Link to="/monument-list">památky</Link>
+              <Link to="/monuments">památky</Link>
             </li>
             <li>
-              <Link to="/game">hry & testy</Link>
+              <Link to="/game">hra</Link>
             </li>
             <li>
               <Link to="/aboutproject">O projektu</Link>

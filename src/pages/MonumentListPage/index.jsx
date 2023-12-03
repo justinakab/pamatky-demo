@@ -1,8 +1,8 @@
-import "./style.css";
-import { Header } from "../../components/Header";
-import { Footer } from "../../components/Footer";
-import { Link } from "react-router-dom";
-import { monuments } from "../../../lib/data";
+import './style.css';
+import { Header } from '../../components/Header';
+import { Footer } from '../../components/Footer';
+import { Link } from 'react-router-dom';
+import { monuments } from '../../../lib/data';
 
 export const MonumentListPage = () => {
   return (
@@ -12,8 +12,10 @@ export const MonumentListPage = () => {
         <div className="list__left--col">
           <ul className="monuments-pages"></ul>
           {monuments.map((monument) => (
-            <li className="monument__id"key={monument.id}>
-              <Link className="menu__link" to={`/monument-list/${monument.id}`}>{monument.name}</Link>
+            <li className="monument__id" key={monument.id}>
+              <Link className="menu__link" to={`/monuments/${monument.id}`}>
+                {monument.name}
+              </Link>
             </li>
           ))}
         </div>

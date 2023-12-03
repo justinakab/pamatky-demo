@@ -18,12 +18,11 @@ const router = createBrowserRouter([
       { path: '', element: <HomePage></HomePage> },
       { path: '/aboutproject', element: <AboutProject></AboutProject> },
       { path: 'game', element: <GamePage></GamePage> },
-      { path: 'monument-list', element: <MonumentListPage></MonumentListPage> },
+      { path: 'monuments', element: <MonumentListPage></MonumentListPage> },
       {
-        path: 'monument-list/:idMonument',
+        path: 'monuments/:idMonument',
         element: <MonumentPage></MonumentPage>,
       },
-
     ],
   },
 ]);
