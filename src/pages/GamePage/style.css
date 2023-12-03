@@ -116,6 +116,18 @@
   background-color: #92B174;
 }
 
+.viewport {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  width: 100%;
+
+}
+
+.viewport>* {
+  flex: auto 0 0;
+}
 
 
 @media (min-width: 768px) {
