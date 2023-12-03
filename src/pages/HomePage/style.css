@@ -45,7 +45,6 @@ header {
   flex-direction: column;
   justify-content: center;
   background: linear-gradient(to bottom, rgba(255, 255, 253, 0.772), rgba(255, 255, 253, 0.772)), url(./img/mapa.svg) center/cover no-repeat;
-  margin: -20px 0 0;
   z-index: 0;
 }
 
@@ -61,7 +60,7 @@ header {
 
 }
 
-.about--description{
+.about--description {
   padding-bottom: 26px;
 }
 
