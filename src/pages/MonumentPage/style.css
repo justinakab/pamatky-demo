@@ -1,42 +1,51 @@
 .monument__container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    gap: 55px;
-    /* padding: 50px; */
-    padding-right: 22px;
-    padding-left: 22px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 55px;
+  /* padding: 50px; */
+  padding-right: 22px;
+  padding-left: 22px;
   /* padding: 50px; */
 }
 
 .monument__header {
-    padding-top: 41px;
+  padding-top: 41px;
 }
+
 .monument__foto {
   width: 75%;
   border-radius: 20px;
 }
 
 .monument__vector {
-    width: 100%;
-    padding-bottom: 35px;
+  width: 80%;
+  padding-bottom: 35px;
 }
 
 .monument__description {
-    text-align: center;
-    font-size: 100%;
-    color: black;
-    padding-right: 30px;
-    padding-left: 30px;
-    font-family: Poppins, sans-serif, 'Times New Roman';
-    line-height: 1.7;
-    max-width: 79vw
+  text-align: center;
+  font-size: 100%;
+  color: black;
+  padding-right: 30px;
+  padding-left: 30px;
+  font-family: Poppins, sans-serif, 'Times New Roman';
+  line-height: 1.7;
+  max-width: 79vw
 }
 
-/* @media (max-width: 718) {
-  .monument__description {
-    
-    padding: 0px 80px 0px 80px;
+@media (min-width: 718px) {
+  .monument__foto {
+    width: 50%;
   }
-} */
+
+
+  .monument__vector {
+    width: 50%;
+
+  }
+
+
+
+}

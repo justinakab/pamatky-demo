@@ -45,6 +45,7 @@ header {
   background: linear-gradient(to bottom, rgba(255, 255, 253, 0.772), rgba(255, 255, 253, 0.772)), url(./img/mapa.svg) center/cover no-repeat;
   z-index: 0;
   margin: -25px 0;
+  height: 90vh;
 }
 
 
@@ -139,7 +140,6 @@ h1 {
 
 /* media queries */
 
-/* tablets */
 @media (min-width: 576px) {
   .btns-container {
     flex-direction: row;
@@ -147,69 +147,9 @@ h1 {
 
 }
 
-/* 
-@media (min-width: 820px) and (max-width: 900px) {
+@media (min-height: 1200px) {
 
   .hero--left-col {
-    padding: 48px;
-    height: 100vh;
+    min-height: 100vh;
   }
 }
-
-@media (min-width: 900px) and (max-width: 992px) {
-  main {
-    min-height: 85vh;
-    width: 100vw;
-    text-align: left;
-    flex-direction: row;
-  }
-
-  .hero--left-col {
-    padding: 20px;
-
-  }
-
-
-
-  .btn {
-    margin-right: 10px;
-    font-size: 14px;
-    width: 200px;
-  }
-
-
-}
-
-@media (min-width: 992px) {
-
-  main {
-    width: 95vw;
-    min-height: 80vh;
-    text-align: left;
-    flex-direction: row;
-    padding-top: 50px;
-    justify-content: space-around;
-    margin: auto;
-  }
-
-  h1 {
-    font-size: 48px;
-  }
-
-  .btns-container {
-    flex-direction: row;
-
-  }
-
-  .btn {
-    margin-right: 10px;
-    font-size: 14px;
-    width: 200px;
-  }
-
-
-  footer {
-    height: 10vh
-  }
-
-} */
