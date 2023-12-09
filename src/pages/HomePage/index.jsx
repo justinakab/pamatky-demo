@@ -18,12 +18,10 @@ export const HomePage = () => {
         <div className="homepage-about">
           <div className="about--text">
             <p className="about--description">
-              <span className="highlight">
-                Interaktivní hra drag and drop a průvodce pražskými památkami.{' '}
-                <br />
-                Inovativní a zábavný způsob, jak poznat architekturu a kulturní
-                dědictví tohoto města.
-              </span>{' '}
+              Interaktivní hra drag and drop a průvodce pražskými památkami.{' '}
+              <br />
+              Inovativní a zábavný způsob, jak poznat architekturu a kulturní
+              dědictví tohoto města.{' '}
             </p>
             {/* tlačítka */}
             <div className="btns-container">

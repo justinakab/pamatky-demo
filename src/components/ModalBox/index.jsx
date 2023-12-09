@@ -33,7 +33,7 @@ export const ModalBox = ({ onIsModalOpen }) => {
         </div>
         <div className="modal-box-about--container">
           <div className="modal-box--text">
-            <span className="highlight highlight--bigger">
+            <span className="highlight-modal highlight--bigger">
               Cíl: Umísti všechny pražské památky správně do mapy.
             </span>{' '}
             <br></br> <br />

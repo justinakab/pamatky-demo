@@ -20,7 +20,6 @@ body {
   justify-content: space-between;
   text-align: center;
   font-family: 'Poppins', sans-serif;
-  /* height: auto; */
 }
 
 /* header */
@@ -45,24 +44,26 @@ header {
   background: linear-gradient(to bottom, rgba(255, 255, 253, 0.772), rgba(255, 255, 253, 0.772)), url(./img/mapa.svg) center/cover no-repeat;
   z-index: 0;
   margin: -25px 0;
-  height: 90vh;
+  min-height: 100vh;
+  gap: 10px;
 }
 
 
 .logo {
-  margin: 20px;
+  margin: 0 20px;
   background-image: url(./img/logo_prague.png);
   height: 191px;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  margin-top: 75px;
+  margin-top: 60px;
 
 }
 
 .about--description {
-  padding-bottom: 26px;
+  padding-bottom: 10px;
   text-align: center;
+  color: #2d3b60;
 }
 
 /* main */
@@ -70,16 +71,13 @@ header {
 main {
   display: flex;
   flex-direction: column;
-  /* padding: 20px 20px 0 20px; */
 }
 
 
 h1 {
   color: #A75A00;
   font-family: "STIX two text", sans-serif, 'Times New Roman', Times, serif;
-  font-size: 46px;
-  /* margin: 12px; */
-  /* font-weight: 20px; */
+  font-size: 35px;
 }
 
 /* buttons */
@@ -96,6 +94,7 @@ h1 {
 .button {
   border-radius: 100px;
   width: 260px;
+  height: 55px;
   padding: 10px 20px;
   cursor: pointer;
   font-size: 16px;
@@ -105,8 +104,6 @@ h1 {
   font-family: 'Poppins', sans-serif;
   background-color: #CB6F03;
   color: #FFEFD2;
-
-
 }
 
 .btn a {
@@ -133,17 +130,32 @@ h1 {
 
 .homepage-about {
   margin-bottom: 20px;
-  padding: 20px;
+  padding: 0 20px;
+
+}
+
+.about--text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 
 
 /* media queries */
 
-@media (min-width: 576px) {
+@media (min-width: 550px) {
   .btns-container {
     flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
   }
+
+  .logo {
+    margin-bottom: 26px;
+  }
+
 
 }
 
@@ -152,4 +164,9 @@ h1 {
   .hero--left-col {
     min-height: 100vh;
   }
+
+  .btns-container {
+    max-width: 800px;
+  }
+
 }

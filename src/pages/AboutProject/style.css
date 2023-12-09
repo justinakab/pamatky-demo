@@ -1,64 +1,64 @@
 .about {
-    display: flex;
-    padding-right: 50px;
-    justify-content: space-around;
-    padding: 25px;
-    flex-direction: column;
-    gap: 31px;
-    align-items: center;
-    font-size: 100%;
-  
+  display: flex;
+  padding-right: 50px;
+  justify-content: space-around;
+  padding: 25px;
+  flex-direction: column;
+  gap: 31px;
+  align-items: center;
+  font-size: 100%;
+
+}
+
+.about--left {
+  width: 100%;
+}
+
+.about--right {
+  width: 100%;
+}
+
+.about--text {
+  width: 100%;
+  margin-top: 25px;
+}
+
+
+.highlight {
+  color: #A75A00;
+}
+
+.image--orloj {
+  background-image: url(./img/orloj.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 40%;
+  padding: 20px;
+  width: 80%;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 30px;
+  margin-bottom: 30px;
+  margin: auto;
+
+}
+
+@media (min-width: 800px) {
+  .about-h1 {
+    margin-bottom: 0;
   }
 
-  .about--left {
-    width: 100%;
+  .about {
+    flex-direction: row;
+    text-align: left;
+    margin-left: 45px;
+
   }
 
-  .about--right {
-    width: 100%;
-  }
 
-  .about--text {
-    width: 100%;
-    margin-top: 25px;
-  }
-  
-  
-  .highlight {
-    color: #BB3C1C;
-  }
 
-  .image--orloj {
-    background-image: url(./img/orloj.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 40%;
-    padding: 20px;
-    width: 80%;
-    height: 60vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-position: center;
-    background-repeat: no-repeat;
-    border-radius: 30px;
-    margin-bottom: 30px;
-    margin: auto;
-  
-  }
- 
-  @media (min-width: 800px) {
-    .about-h1 {
-      margin-bottom: 0;
-    }
-  
-    .about {
-      flex-direction: row;
-      text-align: left;
-      margin-left: 45px;
-   
-    }
-  
-  
-  
-  }
+}
