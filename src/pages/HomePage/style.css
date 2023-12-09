@@ -85,7 +85,7 @@ h1 {
 
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   padding: 15px;
 
@@ -148,7 +148,7 @@ h1 {
 @media (min-width: 550px) {
   .btns-container {
     flex-direction: row;
-    gap: 10px;
+    gap: 30px;
     flex-wrap: wrap;
   }
 
@@ -159,14 +159,28 @@ h1 {
 
 }
 
+
+
 @media (min-height: 1200px) {
 
   .hero--left-col {
     min-height: 100vh;
   }
 
+
+}
+
+@media (min-width: 1200px) {
   .btns-container {
     max-width: 800px;
   }
+
+  .hero--col {
+    height: 85vh;
+    min-height: 0;
+
+  }
+
+
 
 }
