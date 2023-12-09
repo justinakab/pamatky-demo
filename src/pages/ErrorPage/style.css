@@ -1,3 +1,13 @@
+.error-background {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f3efe9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
 .error-page {
   background-color: #f3efe9;
   border: 1px solid #c77b41;
@@ -5,8 +15,29 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 80vw;
+  height: 80vh;
 }
 
 .error-heading {
   color: #c77b41;
+}
+
+.error-svg {
+  width: 300px;
+  padding-top: 30px;
+  transform: scale(1);
+  animation: pulse 1.5s ease-in-out infinite alternate;
+
+}
+
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(1.1);
+  }
 }
