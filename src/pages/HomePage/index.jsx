@@ -4,6 +4,7 @@ import { Header } from '../../components/Header';
 import { Footer } from '../../components/Footer';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
+import { PrahaLogo } from '../../components/PrahaLogo';
 
 export const HomePage = () => {
   return (
@@ -12,7 +13,9 @@ export const HomePage = () => {
 
       <div className="hero--col">
         <Link to="/">
-          <div className="logo"></div>
+          <div className="logo">
+            <PrahaLogo></PrahaLogo>
+          </div>
         </Link>
         <h1>Interaktivně za památkami</h1>
         <div className="homepage-about">

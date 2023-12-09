@@ -1,0 +1,51 @@
+@keyframes wave1 {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes wave2 {
+  0% {
+    transform: translateY(-10px);
+  }
+
+  50% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+.praha-logo {
+  overflow: visible;
+  width: 80vw;
+  max-width: 600px;
+}
+
+
+.cls-1 {
+  fill: #CB6F03;
+
+
+}
+
+.cls-A-2,
+.cls-P,
+.cls-A {
+  animation: wave1 2s infinite alternate ease-in-out;
+}
+
+.cls-R,
+.cls-H {
+  animation: wave2 2s infinite alternate ease-in-out;
+}
