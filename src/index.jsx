@@ -15,18 +15,18 @@ const router = createBrowserRouter([
     element: <App />,
     errorElement: <ErrorPage />,
     children: [
-      { path: '', element: <HomePage></HomePage> },
-      { path: '/aboutproject', element: <AboutProject></AboutProject> },
-      { path: 'game', element: <GamePage></GamePage> },
-      { path: 'monuments', element: <MonumentListPage></MonumentListPage> },
+      { path: '', element: <HomePage /> },
+      { path: '/aboutproject', element: <AboutProject /> },
+      { path: 'game', element: <GamePage /> },
+      { path: 'monuments', element: <MonumentListPage /> },
       {
         path: 'monuments/:idMonument',
-        element: <MonumentPage></MonumentPage>,
+        element: <MonumentPage />,
       },
     ],
   },
 ]);
 
 createRoot(document.querySelector('#app')).render(
-  <RouterProvider router={router}></RouterProvider>,
+  <RouterProvider router={router} />,
 );

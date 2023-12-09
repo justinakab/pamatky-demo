@@ -1,51 +1,50 @@
-import "./style.css";
+import './style.css';
 
-import { Header } from "../../components/Header";
-import { Footer } from "../../components/Footer";
+import { Header } from '../../components/Header';
+import { Footer } from '../../components/Footer';
 
 export const AboutProject = () => {
   return (
     <>
-      <Header></Header>
+      <Header />
 
       <div className="about">
         <div className="about--left">
           <h1 className="about-h1">O projektu</h1>
           <div className="about--text">
             <p>
-              V našem závěrečném projektu jsme si dali za cíl vytvořit{" "}
+              V našem závěrečném projektu jsme si dali za cíl vytvořit{' '}
               <span className="highlight">
                 interaktivního webového průvodce pražskými památkami,
-              </span>{" "}
+              </span>{' '}
               který je určen pro děti od 10 let. <br></br> <br />
               Cílem naší iniciativy není pouze přiblížit mladším generacím
-              bohatou historii Prahy, ale také{" "}
+              bohatou historii Prahy, ale také{' '}
               <span className="highlight">
                 nabídnout inovativní a zábavný způsob, jak poznat architekturu a
                 kulturní dědictví tohoto města.
-              </span>{" "}
+              </span>{' '}
               Zároveň klademe důraz na vizuální stránku, neboť se tímto
               projektem chceme v budoucnu prezentovat. Také jsme si vědomy, že
-              ilustrace a fotografie poskytnou dětem vizuálně poutavý zážitek.{" "}
+              ilustrace a fotografie poskytnou dětem vizuálně poutavý zážitek.{' '}
               <br></br> <br />
               Rovněž jsme odhodlány rozšířit hranice běžných akademických
-              projektů a{" "}
+              projektů a{' '}
               <span className="highlight">
                 vyzkoušet si nové funkcionality.
-              </span>{" "}
+              </span>{' '}
               Například, plánujeme implementovat prvky mimo standardní rámec
               Digitální akademie, např. funkci drag&drop.
             </p>
             <br></br>
             <h3>Mentoři: Filip Jirsák a Nela Letochová</h3>
           </div>
-          </div>
-          <div className="about--right">
-            <div className="image--orloj"></div>
-          
+        </div>
+        <div className="about--right">
+          <div className="image--orloj"></div>
         </div>
       </div>
-      <Footer></Footer>
+      <Footer />
     </>
   );
 };

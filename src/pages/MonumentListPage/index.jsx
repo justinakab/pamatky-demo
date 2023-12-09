@@ -7,7 +7,7 @@ import { monuments } from '../../lib/data';
 export const MonumentListPage = () => {
   return (
     <>
-      <Header></Header>
+      <Header />
       <div className="list">
         <div className="list__left--col">
           <ul className="monuments-pages">
@@ -25,7 +25,7 @@ export const MonumentListPage = () => {
         </div>
         <div className="list__right--col"></div>
       </div>
-      <Footer></Footer>
+      <Footer />
     </>
   );
 };

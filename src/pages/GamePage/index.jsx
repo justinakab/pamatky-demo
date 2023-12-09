@@ -217,7 +217,7 @@ export const GamePage = () => {
                 id={dropBox.id}
                 key={dropBox.id}
                 disabled={activeId === 'map'}
-              ></DropBox>
+              />
             ))}
           </Map>
         </div>
@@ -238,13 +238,10 @@ export const GamePage = () => {
             >
               Jak hrát?
             </motion.button>
-            <QuestionIcon
-              onClick={handleModal}
-              className="question-icon"
-            ></QuestionIcon>
+            <QuestionIcon onClick={handleModal} className="question-icon" />
 
             <Link to="/">
-              <HomeIcon className="home-icon"></HomeIcon>
+              <HomeIcon className="home-icon" />
               <motion.button
                 onClick={handleConfirm}
                 className="btn btn-menu"
@@ -264,7 +261,7 @@ export const GamePage = () => {
           </div>
 
           <div className={`${colorClass} message-box`}>
-            <MessageBox message={message}></MessageBox>
+            <MessageBox message={message} />
           </div>
           <div className="monuments-box">
             <div className="monuments-box--list">
@@ -275,7 +272,7 @@ export const GamePage = () => {
                     overlay={false}
                     key={monument.id}
                     id={monument.id}
-                  ></Monument>
+                  />
                 ))}
             </div>
             {activeId !== 'map' && (

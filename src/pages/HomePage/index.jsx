@@ -8,7 +8,7 @@ import { motion } from 'framer-motion';
 export const HomePage = () => {
   return (
     <>
-      <Header></Header>
+      <Header />
 
       <div className="hero--col">
         <Link to="/">
@@ -64,7 +64,7 @@ export const HomePage = () => {
           </div>
         </div>
       </div>
-      <Footer></Footer>
+      <Footer />
     </>
   );
 };

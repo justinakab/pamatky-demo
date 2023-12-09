@@ -14,7 +14,7 @@ export const MonumentPage = () => {
 
   return (
     <>
-      <Header></Header>
+      <Header />
       <div className="monument__container">
         <h1 className="monument__header">{monumentData.name}</h1>
 
@@ -35,7 +35,7 @@ export const MonumentPage = () => {
         ></img>
       </div>
 
-      <Footer></Footer>
+      <Footer />
     </>
   );
 };
