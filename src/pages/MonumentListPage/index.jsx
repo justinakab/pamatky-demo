@@ -2,7 +2,7 @@ import './style.css';
 import { Header } from '../../components/Header';
 import { Footer } from '../../components/Footer';
 import { Link } from 'react-router-dom';
-import { monuments } from '../../../lib/data';
+import { monuments } from '../../lib/data';
 
 export const MonumentListPage = () => {
   return (

@@ -3,7 +3,7 @@ import { DropBox } from '../../components/DropBox';
 import './style.css';
 import { useState } from 'react';
 import { Monument } from '../../components/Monument';
-import { monuments } from '../../../lib/data';
+import { monuments } from '../../lib/data';
 import { Map } from './map';
 import { ModalBox } from '../../components/ModalBox';
 import { MessageBox } from '../../components/MessageBox';
@@ -13,8 +13,8 @@ import { useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { HomeIcon } from '../../components/HomeIcon';
 import { QuestionIcon } from '../../components/QuestionIcon';
-import { closestCenterLimited } from '../../../lib/closetCenterLimited';
-import { restrictToParent } from '../../../lib/restrictToParent';
+import { closestCenterLimited } from '../../lib/closetCenterLimited';
+import { restrictToParent } from '../../lib/restrictToParent';
 
 const dropBoxData = [
   { x: 651.545, y: 322.019, id: 'orloj' },
