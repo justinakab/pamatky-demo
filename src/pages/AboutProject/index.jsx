@@ -1,5 +1,4 @@
 import './style.css';
-
 import { Header } from '../../components/Header';
 import { Footer } from '../../components/Footer';
 
@@ -7,7 +6,6 @@ export const AboutProject = () => {
   return (
     <>
       <Header />
-
       <div className="about">
         <div className="about--left">
           <h1 className="about-h1">O projektu</h1>

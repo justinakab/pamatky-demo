@@ -32,7 +32,6 @@ export const Map = ({ top, left, children }) => {
   });
 
   const MemoMapSvg = memo(MapSVG);
-
   const finalTransform = transform ?? { x: 0, y: 0, scaleX: 1, scaleY: 1 };
   finalTransform.x += left;
   finalTransform.y += top;

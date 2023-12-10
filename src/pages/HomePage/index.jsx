@@ -1,5 +1,4 @@
 import './style.css';
-
 import { Header } from '../../components/Header';
 import { Footer } from '../../components/Footer';
 import { Link } from 'react-router-dom';
@@ -26,7 +25,6 @@ export const HomePage = () => {
               Inovativní a zábavný způsob, jak poznat architekturu a kulturní
               dědictví tohoto města.{' '}
             </p>
-            {/* tlačítka */}
             <div className="btns-container">
               <Link to="/monuments">
                 <motion.button

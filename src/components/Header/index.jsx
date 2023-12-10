@@ -11,7 +11,7 @@ export const Header = () => {
       </Link>
       <div className="container--hamburger-menu">
         <Menu />
-        <DesktopMenu></DesktopMenu>
+        <DesktopMenu />
       </div>
     </header>
   );

@@ -7,7 +7,6 @@
   gap: 31px;
   align-items: center;
   font-size: 100%;
-
 }
 
 .about--left {
@@ -22,7 +21,6 @@
   width: 100%;
   margin-top: 25px;
 }
-
 
 .highlight {
   color: #A75A00;
@@ -44,7 +42,6 @@
   border-radius: 30px;
   margin-bottom: 30px;
   margin: auto;
-
 }
 
 @media (min-width: 800px) {
@@ -56,9 +53,5 @@
     flex-direction: row;
     text-align: justify;
     margin-left: 45px;
-
   }
-
-
-
 }

@@ -1,5 +1,3 @@
-import './style.css';
-
 export const QuestionIcon = ({ onClick }) => {
   return (
     <div onClick={onClick} className="question-icon">
