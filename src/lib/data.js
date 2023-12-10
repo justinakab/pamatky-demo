@@ -15,7 +15,7 @@ export const monuments = [
     description:
       '<div><p>Pražský orloj je jedním z <strong>nejstarších dochovaných astronomických hodin na světě</strong> a byl postaven v roce 1410 v rámci rekonstrukce Staroměstské radnice v Praze. <strong>Tvůrci</strong> orloje byli <strong>hodinář Mikuláš</strong> z Kadaně a <strong>astronom Jan Šindel</strong>, kteří se podíleli na vytvoření složitého mechanismu, zahrnujícího různá astronomická měřítka. </p><br><p>Orloj zobrazuje nejen čas, ale také astronomické údaje, jako jsou polohy Slunce a Měsíce na obloze, sluneční a lunární fáze a zvěrokruh. Před orlojem je postavena socha smrti, která každou hodinu zatrhává smrtící kyjem na zvonek, což <strong>symbolizuje plynutí času a nevyhnutelnost smrti</strong>.</p> <br>Orloj byl původně <strong>navržen</strong> jako <strong>vědecký nástroj</strong> pro astronomická pozorování a stal se také <strong>symbolem</strong> městské hrdosti a <strong>technologického pokroku</strong>.</div>',
     photos: '/images/photos/orloj.jpg',
-    vectors: '/images/vectors/orloj.svg',
+    vectors: '/images/vectors/orloj.png',
   },
   {
     id: 'narodniDivadlo',
@@ -29,7 +29,7 @@ export const monuments = [
     name: 'Tančící Dům',
     description: '<div><p>Tančící dům, známý také jako Ginger a Fred, je <strong>moderní architektonický skvost</strong> nacházející se v Praze. <strong>Postaven</strong> byl <strong>v roce 1996</strong> na místě, kde stával dům zničený během bombardování Prahy během druhé světové války.</p><br><p> Projekt Tančícího domu je <strong>dílem</strong> architektonického dua <strong>Franka Gehryho a Vlada Miluniče</strong>, kteří vytvořili koncept harmonického kontrastu mezi historickým a moderním. Název Ginger a Fred <strong>odkazuje na taneční pár Ginger Rogers a Fred Astaire</strong>, protože tvar domu připomíná tančící postavy.</p><br> <strong>V roce 2005</strong> byl Tančící dům <strong>vyhlášen nejlepší novou konstrukcí roku</strong> v anketě České komory architektů.</div>',
     photos: '/images/photos/tancici_dum.jpg',
-    vectors: '/images/vectors/tancici_dum.svg',
+    vectors: '/images/vectors/tancici_dum.png',
   },
   {
     id: 'chramSvVita',
