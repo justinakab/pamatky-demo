@@ -1,6 +1,6 @@
 import './style.css';
 
-export const HomeIcon = (handleConfirm) => {
+export const HomeIcon = ({ handleConfirm }) => {
   return (
     <div onClick={handleConfirm} className="home-icon">
       <svg

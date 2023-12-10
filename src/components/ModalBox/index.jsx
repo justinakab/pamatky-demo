@@ -46,8 +46,6 @@ export const ModalBox = ({ onIsModalOpen }) => {
               mapě. <br></br> <br></br>
               Pokud ji umístíš správně, památka ti v mapě zůstane.
               <br></br> <br />
-              Nakonec si každou památku můžeš rozkliknout a přečíst si o ní
-              zajímavé informace. <br></br> <br />
               <span className="highlight--bigger">Užij si to!</span>
             </p>
           </div>

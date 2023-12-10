@@ -48,7 +48,7 @@ export const GamePage = () => {
 
   const [colorClass, setColorClass] = useState('color-answer-neutral');
 
-  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isModalOpen, setIsModalOpen] = useState(true);
 
   const [isWinnerBoxOpen, setIsWinnerBoxOpen] = useState(false);
 

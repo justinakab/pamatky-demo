@@ -37,7 +37,14 @@ export const AboutProject = () => {
               Digitální akademie, např. funkci drag&drop.
             </p>
             <br></br>
-            <h3>Mentoři: Filip Jirsák a Nela Letochová</h3>
+            <h3>
+              <span className="highlight">Autorky:</span> Justina Kabelková a
+              Ema Šturmová
+            </h3>
+            <h3>
+              <span className="highlight">Mentoři:</span> Filip Jirsák a Nela
+              Letochová
+            </h3>
           </div>
         </div>
         <div className="about--right">
