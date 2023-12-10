@@ -21,7 +21,7 @@ export const HomePage = () => {
         <div className="homepage-about">
           <div className="about--text">
             <p className="about--description">
-              Interaktivní hra drag and drop a průvodce pražskými památkami.{' '}
+              Interaktivní Drag & Drop hra a průvodce pražskými památkami.{' '}
               <br />
               Inovativní a zábavný způsob, jak poznat architekturu a kulturní
               dědictví tohoto města.{' '}

@@ -39,13 +39,16 @@ export const ModalBox = ({ onIsModalOpen }) => {
             <br></br> <br />
             <span className="highlight--bigger">Jak na to?</span>
             <br />
+            <br />
             <p>
               Vpravo na stránce najdeš celou řadu pražských památek. <br></br>{' '}
               <br></br>
               Postupně zkus každou památku přetáhnou na jedno ze žlutých míst na
               mapě. <br></br> <br></br>
               Pokud ji umístíš správně, památka ti v mapě zůstane.
-              <br></br> <br />
+              <br></br> <br />{' '}
+              <span className="highlight">Pozor: Mapu můžeš i posouvat!</span>{' '}
+              <br /> <br />
               <span className="highlight--bigger">Užij si to!</span>
             </p>
           </div>

@@ -25,7 +25,7 @@ export const AboutProject = () => {
                 kulturní dědictví tohoto města.
               </span>{' '}
               Zároveň klademe důraz na vizuální stránku, neboť se tímto
-              projektem chceme v budoucnu prezentovat. Také jsme si vědomy, že
+              projektem chceme prezentovat i v budoucnu. Také jsme si vědomy, že
               ilustrace a fotografie poskytnou dětem vizuálně poutavý zážitek.{' '}
               <br></br> <br />
               Rovněž jsme odhodlány rozšířit hranice běžných akademických
@@ -33,8 +33,11 @@ export const AboutProject = () => {
               <span className="highlight">
                 vyzkoušet si nové funkcionality.
               </span>{' '}
-              Například, plánujeme implementovat prvky mimo standardní rámec
-              Digitální akademie, např. funkci drag&drop.
+              Například jsme implementovaly prvky nad standardní rámec Digitální
+              akademie – funkci drag&drop.{' '}
+              <span className="highlight">
+                A také jsme si vzaly pod palec veškerý design památek!
+              </span>
             </p>
             <br></br>
             <h3>
