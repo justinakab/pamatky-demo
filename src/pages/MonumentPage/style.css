@@ -28,8 +28,6 @@
   text-align: center;
   font-size: 100%;
   color: black;
-  padding-right: 30px;
-  padding-left: 30px;
   font-family: Poppins, sans-serif, 'Times New Roman';
   line-height: 1.7;
   max-width: 79vw
@@ -57,7 +55,5 @@
     width: 50%;
 
   }
-
-
 
 }
