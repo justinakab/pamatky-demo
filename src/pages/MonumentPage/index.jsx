@@ -4,6 +4,7 @@ import { monuments } from '../../lib/data';
 import { Header } from '../../components/Header';
 import { Footer } from '../../components/Footer';
 import { camelToKebabCase } from '../MonumentListPage';
+import { Link } from 'react-router-dom';
 
 export const MonumentPage = () => {
   const { idMonument } = useParams();
@@ -33,6 +34,9 @@ export const MonumentPage = () => {
           src={monumentData.vectors}
           alt="památka ve vectorové grafice"
         ></img>
+        <Link to="/monuments" className="monument__link">
+          Zpět na seznam památek
+        </Link>
       </div>
 
       <Footer />

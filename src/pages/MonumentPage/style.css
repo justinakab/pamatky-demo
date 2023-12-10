@@ -35,6 +35,18 @@
   max-width: 79vw
 }
 
+.monument__link {
+  color: #A75A00;
+  font-weight: bold;
+  text-decoration: underline;
+  padding-bottom: 20px;
+}
+
+.monument__link:hover {
+  color: #485E9B;
+
+}
+
 @media (min-width: 718px) {
   .monument__foto {
     width: 50%;
