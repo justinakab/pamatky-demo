@@ -241,7 +241,7 @@ export const GamePage = () => {
             <QuestionIcon onClick={handleModal} className="question-icon" />
 
             <Link to="/">
-              <HomeIcon className="home-icon" />
+              <HomeIcon handleConfirm={handleConfirm} className="home-icon" />
               <motion.button
                 onClick={handleConfirm}
                 className="btn btn-menu"
