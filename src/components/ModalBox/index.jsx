@@ -1,6 +1,17 @@
 import './style.css';
+import { motion } from 'framer-motion';
 
 export const ModalBox = ({ onIsModalOpen }) => {
+  const dropIn = {
+    hidden: {
+      y: '-100vh',
+      opacity: 0,
+    },
+    visible: {
+      y: '0',
+      opacity: 1,
+    },
+  };
   return (
     <>
       <div
@@ -9,7 +20,12 @@ export const ModalBox = ({ onIsModalOpen }) => {
         }}
         className="backdrop"
       ></div>
-      <div className="modal-box">
+      <motion.div
+        className="modal-box"
+        variants={dropIn}
+        initial={'hidden'}
+        animate={'visible'}
+      >
         <div className="modal-box--top">
           <h1 className="top--heading">Jak hrát?</h1>
           <svg
@@ -56,7 +72,7 @@ export const ModalBox = ({ onIsModalOpen }) => {
             <img className="gif" src="aboutgame.gif" alt="" />
           </div>
         </div>
-      </div>
+      </motion.div>
     </>
   );
 };
