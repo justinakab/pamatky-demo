@@ -29,6 +29,7 @@
 ><ul>
 >  <li>Mobile version</li>
 >  <li>Safari difficulties</li>
+>  <li>Photographs compression</li>
 > </ul>
 
 
